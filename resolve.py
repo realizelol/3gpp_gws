@@ -16,7 +16,7 @@ def resolve_domain(domain, record_type='A'):
     resolver.nameservers = ['8.8.8.8', '1.1.1.1']
     answer = resolver.resolve(domain, record_type)
     return [rdata.to_text() for rdata in answer]
-  except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, socket.gaierror) as e:
+  except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, dns.resolver.NoNameservers, socket.gaierror) as e:
     # If the domain cannot be resolved, return an empty list
     return []
 
