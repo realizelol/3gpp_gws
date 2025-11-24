@@ -37,6 +37,7 @@ def resolve_domain(domain, record_type='A'):
     answer = resolver.resolve(domain, record_type)
     return [rdata.to_text() for rdata in answer]
   except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, dns.resolver.NoNameservers, socket.gaierror) as e:
+    print(f"Error resolving domain {domain} (type {record_type}): {e}")
     return []
 
 def download_csv(url):
@@ -52,16 +53,23 @@ def download_csv(url):
 def process_domains_from_csv(csv_url):
   data = download_csv(csv_url)
   if data.empty:
+    print("CSV contains no valid data")
     return
+  data = data[data['ISO'].notna() & (data['ISO'].str.strip() != '')]
+
   countries = defaultdict(lambda: defaultdict(list))
   with open("all_domains.txt", 'w') as all_file:
     for _, row in data.iterrows():
       mcc = str(row['MCC']).zfill(3)
       mnc = str(row['MNC']).zfill(3)
       country_code = str(row['ISO'])
+      if pd.isna(country_code) or not country_code.strip():
+        continue
       sanitized_country_code = country_code.replace('/', '-').lower()
+
       domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
       all_file.write(f"{domain}\n")
+
       ipv4_addresses = resolve_domain(domain, 'A')
       ipv6_addresses = resolve_domain(domain, 'AAAA')
       if ipv4_addresses:
