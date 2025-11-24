@@ -58,79 +58,63 @@ def download_csv(url):
 
 def process_domains_from_csv(csv_url):
   data = download_csv(csv_url)
-
   # Group by country code (ISO)
   countries = defaultdict(lambda: defaultdict(list))  # Nested dictionary: countries[iso_code][record_type]
-
   # For each row in the CSV, generate the domain and resolve it
-  for _, row in data.iterrows():
-    country_code = row['ISO']
-    sanitized_country_code = country_code.replace('/', '-')
-    mcc = str(int(row['MCC']))
-    mnc = str(int(row['MNC']))
-    
-    # Generate domain
-    domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
-    
-    # Resolve the domain for both IPv4 and IPv6
-    for record_type in ['A', 'AAAA']:
-      resolved_ips = resolve_domain(domain, record_type)
-      valid_ips = []
-      for ip in resolved_ips:
-        if record_type == 'A' and is_valid_ipv4(ip):
-          valid_ips.append(ip)
-        elif record_type == 'AAAA' and is_valid_ipv6(ip):
-          valid_ips.append(ip)
-      if valid_ips:
-        unique_ips = set(valid_ips)
-        countries[sanitized_country_code][record_type].append((domain, unique_ips))
+  with open(f"_domains.txt", 'w') as all_file:
+    for _, row in data.iterrows():
+      country_code = row['ISO']
+      sanitized_country_code = country_code.replace('/', '-')
+      mcc = str(int(row['MCC']))
+      mnc = str(int(row['MNC']))
+      # Generate domain
+      domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
+      all_file.write(f"{domain}\n")
+      # Resolve the domain for both IPv4 and IPv6
+      for record_type in ['A', 'AAAA']:
+        resolved_ips = resolve_domain(domain, record_type)
+        valid_ips = []
+        for ip in resolved_ips:
+          if record_type == 'A' and is_valid_ipv4(ip):
+            valid_ips.append(ip)
+          elif record_type == 'AAAA' and is_valid_ipv6(ip):
+            valid_ips.append(ip)
+        if valid_ips:
+          unique_ips = set(valid_ips)
+          countries[sanitized_country_code][record_type].append((domain, unique_ips))
 
   # Prepare output files
-  with open("_domains.txt", 'w') as all_file, open("_ipv4.txt", 'w') as ipv4_file, open("_ipv6.txt", 'w') as ipv6_file:
+  with open("_domains.txt", 'w') as all_file, \
+       open("_ipv4.txt", 'w') as ipv4_file, \
+       open("_ipv6.txt", 'w') as ipv6_file:
     
     # Write to all domain file
     for country_code in sorted(countries.keys()):
-      all_file.write(f"{country_code}\n")
       for record_type in ['A', 'AAAA']:
         if countries[country_code].get(record_type):
           for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-            all_file.write(f"{domain}\n")
-            for ip in sorted(ips):  # Sort IPs for better readability
-              all_file.write(f"{ip}\n")
-          
-          # Also write to the specific files (ipv4 and ipv6)
-          if record_type == 'A':
-            for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-              ipv4_file.write(f"{domain}\n")
+            if record_type == 'A':
               for ip in sorted(ips):
                 ipv4_file.write(f"{ip}\n")
-          elif record_type == 'AAAA':
-            for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-              ipv6_file.write(f"{domain}\n")
+            elif record_type == 'AAAA':
               for ip in sorted(ips):
                 ipv6_file.write(f"{ip}\n")
-    
+
     # Write individual country files
     for country_code in sorted(countries.keys()):
-      sanitized_country_code = country_code.replace('/', '-')
-      with open(f"domains_{sanitized_country_code.lower()}.txt", 'w') as country_file, \
-         open(f"ipv4_{sanitized_country_code.lower()}.txt", 'w') as ipv4_country_file, \
-         open(f"ipv6_{sanitized_country_code.lower()}.txt", 'w') as ipv6_country_file:
-        
-        country_file.write(f"{country_code}\n")
+      sanitized_country_code = country_code.replace('/', '-').lower()
+      with open(f"domains_{sanitized_country_code}.txt", 'w') as country_file, \
+           open(f"ipv4_{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
+           open(f"ipv6_{sanitized_country_code}.txt", 'w') as ipv6_country_file:
         for record_type in ['A', 'AAAA']:
           if countries[country_code].get(record_type):
             for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
+              country_file.write(f"{domain}\n")
               if record_type == 'A':
-                country_file.write(f"{domain}\n")
-              for ip in sorted(ips):
-                country_file.write(f"{ip}\n")
-
-            if record_type == 'A':
-              for ip in sorted(ips):
-                ipv4_country_file.write(f"{ip}\n")
-            elif record_type == 'AAAA':
-              for ip in sorted(ips):
-                ipv6_country_file.write(f"{ip}\n")
+                for ip in sorted(ips):
+                  ipv4_country_file.write(f"{ip}\n")
+              elif record_type == 'AAAA':
+                for ip in sorted(ips):
+                  ipv6_country_file.write(f"{ip}\n")
 
 process_domains_from_csv("https://mcc-mnc.net/mcc-mnc.csv")
