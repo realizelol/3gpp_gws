@@ -1,0 +1,7 @@
+TN
+epdg.epc.mnc1.mcc605.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc2.mcc605.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc605.pub.3gppnetwork.org
+127.0.0.1

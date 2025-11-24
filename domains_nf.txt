@@ -1,0 +1,3 @@
+NF
+epdg.epc.mnc10.mcc505.pub.3gppnetwork.org
+127.0.0.1

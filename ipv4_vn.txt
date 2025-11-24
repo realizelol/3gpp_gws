@@ -1,0 +1,16 @@
+epdg.epc.mnc1.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc2.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc4.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc6.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc7.mcc452.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc8.mcc452.pub.3gppnetwork.org
+127.0.0.1

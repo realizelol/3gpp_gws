@@ -1,0 +1,9 @@
+VU
+epdg.epc.mnc0.mcc541.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc1.mcc541.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc541.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc7.mcc541.pub.3gppnetwork.org
+127.0.0.1

@@ -1,0 +1,3 @@
+MS
+epdg.epc.mnc860.mcc354.pub.3gppnetwork.org
+201.224.137.32

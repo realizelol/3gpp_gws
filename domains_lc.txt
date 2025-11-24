@@ -1,0 +1,5 @@
+LC
+epdg.epc.mnc110.mcc358.pub.3gppnetwork.org
+201.224.137.32
+epdg.epc.mnc50.mcc338.pub.3gppnetwork.org
+127.0.0.1

@@ -1,0 +1,13 @@
+SA
+epdg.epc.mnc1.mcc420.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc21.mcc420.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc420.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc4.mcc420.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc420.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc6.mcc420.pub.3gppnetwork.org
+127.0.0.1

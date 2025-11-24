@@ -1,0 +1,7 @@
+TO
+epdg.epc.mnc1.mcc539.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc43.mcc539.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc88.mcc539.pub.3gppnetwork.org
+127.0.0.1

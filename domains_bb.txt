@@ -1,0 +1,9 @@
+BB
+epdg.epc.mnc600.mcc342.pub.3gppnetwork.org
+201.224.137.32
+epdg.epc.mnc750.mcc342.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc800.mcc342.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc820.mcc342.pub.3gppnetwork.org
+127.0.0.1

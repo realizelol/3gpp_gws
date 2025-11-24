@@ -1,0 +1,11 @@
+MT
+epdg.epc.mnc1.mcc278.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc11.mcc278.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc21.mcc278.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc30.mcc278.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc77.mcc278.pub.3gppnetwork.org
+127.0.0.1

@@ -1,0 +1,5 @@
+AE
+epdg.epc.mnc2.mcc424.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc424.pub.3gppnetwork.org
+127.0.0.1

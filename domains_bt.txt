@@ -1,0 +1,5 @@
+BT
+epdg.epc.mnc11.mcc402.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc77.mcc402.pub.3gppnetwork.org
+127.0.0.1

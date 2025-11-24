@@ -1,0 +1,17 @@
+MO
+epdg.epc.mnc0.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc1.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc2.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc4.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc6.mcc455.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc7.mcc455.pub.3gppnetwork.org
+127.0.0.1

@@ -1,0 +1,7 @@
+BA
+epdg.epc.mnc3.mcc218.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc218.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc90.mcc218.pub.3gppnetwork.org
+127.0.0.1

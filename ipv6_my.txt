@@ -1,0 +1,6 @@
+epdg.epc.mnc150.mcc502.pub.3gppnetwork.org
+2001:df6:31c0:1::1
+2001:df6:31c0::1
+epdg.epc.mnc152.mcc502.pub.3gppnetwork.org
+2402:b400:1002:14:8000:19:1000:1
+2402:b400:1002:16:8000:1a:1000:1

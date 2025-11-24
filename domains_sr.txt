@@ -1,0 +1,9 @@
+SR
+epdg.epc.mnc2.mcc746.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc3.mcc746.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc4.mcc746.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc5.mcc746.pub.3gppnetwork.org
+127.0.0.1

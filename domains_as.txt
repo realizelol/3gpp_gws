@@ -1,0 +1,6 @@
+AS
+epdg.epc.mnc11.mcc544.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc780.mcc311.pub.3gppnetwork.org
+208.136.102.140
+208.136.102.141

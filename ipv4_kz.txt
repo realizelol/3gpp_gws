@@ -1,0 +1,10 @@
+epdg.epc.mnc1.mcc401.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc2.mcc401.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc7.mcc401.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc77.mcc401.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc8.mcc401.pub.3gppnetwork.org
+127.0.0.1

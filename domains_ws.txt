@@ -1,0 +1,7 @@
+WS
+epdg.epc.mnc0.mcc549.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc1.mcc549.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc27.mcc549.pub.3gppnetwork.org
+127.0.0.1

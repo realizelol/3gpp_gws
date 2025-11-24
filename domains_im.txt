@@ -1,0 +1,9 @@
+IM
+epdg.epc.mnc18.mcc234.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc36.mcc234.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc58.mcc234.pub.3gppnetwork.org
+127.0.0.1
+epdg.epc.mnc73.mcc234.pub.3gppnetwork.org
+127.0.0.1
