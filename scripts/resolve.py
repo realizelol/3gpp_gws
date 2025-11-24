@@ -39,11 +39,20 @@ def resolve_domain(domain, record_type='A'):
   except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, dns.resolver.NoNameservers, socket.gaierror) as e:
     return []
 
-def process_domains_from_csv(csv_url):
-  response = requests.get(csv_url)
+def download_csv(url):
+  response = requests.get(url)
   response.raise_for_status()
   try:
     data = pd.read_csv(io.StringIO(response.text), sep=';', usecols=['MCC', 'MNC', 'ISO'], on_bad_lines='skip')
+    return data
+  except Exception as e:
+    print(f"Error parsing CSV: {e}")
+    return pd.DataFrame()
+
+def process_domains_from_csv(csv_url):
+  data = download_csv(csv_url)
+  if data.empty:
+    return
   countries = defaultdict(lambda: defaultdict(list))
   with open("all_domains.txt", 'w') as all_file:
     for _, row in data.iterrows():
@@ -51,25 +60,15 @@ def process_domains_from_csv(csv_url):
       mnc = str(int(row['MNC']).zfill(3))
       domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
       all_file.write(f"{domain}\n")
+      ipv4_addresses = resolve_domain(domain, 'A')
+      ipv6_addresses = resolve_domain(domain, 'AAAA')
+      if ipv4_addresses:
+        countries[country_code]['A'].append((domain, ipv4_addresses))
+      if ipv6_addresses:
+        countries[country_code]['AAAA'].append((domain, ipv6_addresses))
 
-  # Prepare ip output files
-  with open("all_ipv4.txt", 'w') as ipv4_file, open("all_ipv6.txt", 'w') as ipv6_file:
-
-    # Write to all domain file
-    for country_code in sorted(countries.keys()):
-      for record_type in ['A', 'AAAA']:
-        if countries[country_code].get(record_type):
-          for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-            if record_type == 'A':
-              for ip4 in sorted(ips):
-                ipv4_file.write(f"{ip4}\n")
-            elif record_type == 'AAAA':
-              for ip6 in sorted(ips):
-                ipv6_file.write(f"{ip6}\n")
-
-  # Write individual country files
   for country_code in sorted(countries.keys()):
-    sanitized_country_code = country_code.astype(str).replace('/', '-').lower()
+    sanitized_country_code = country_code.replace('/', '-').lower()
     with open(f"domains/{sanitized_country_code}.txt", 'w') as country_file, \
          open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
          open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
@@ -77,11 +76,10 @@ def process_domains_from_csv(csv_url):
         if countries[country_code].get(record_type):
           for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
             country_file.write(f"{domain}\n")
-            if record_type == 'A':
-              for ip4 in sorted(ips):
-                ipv4_country_file.write(f"{ip4}\n")
-            elif record_type == 'AAAA':
-              for ip6 in sorted(ips):
-                ipv6_country_file.write(f"{ip6}\n")
+            for ip in sorted(ips):
+              if record_type == 'A' and is_valid_ipv4(ip):
+                ipv4_country_file.write(f"{ip}\n")
+              elif record_type == 'AAAA' and is_valid_ipv6(ip):
+                ipv6_country_file.write(f"{ip}\n")
 
 process_domains_from_csv("https://mcc-mnc.net/mcc-mnc.csv")
