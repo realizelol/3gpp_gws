@@ -20,8 +20,10 @@ def resolve_domain(domain, record_type='A'):
 def download_csv(url):
   response = requests.get(url)
   response.raise_for_status()
-  # Load CSV data into a pandas DataFrame
-  data = pd.read_csv(io.StringIO(response.text))
+  try:
+    data = pd.read_csv(io.StringIO(response.text), sep=';', usecols=['MCC', 'MNC', 'ISO'], on_bad_lines='skip')
+  except pd.errors.ParserError:
+    data = pd.read_csv(io.StringIO(response.text), sep=',', usecols=['MCC', 'MNC', 'ISO'], on_bad_lines='skip')
   return data
 
 def process_domains_from_csv(csv_url):
