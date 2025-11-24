@@ -27,6 +27,8 @@ def download_csv(url):
     data = pd.read_csv(io.StringIO(response.text), sep=';', usecols=['MCC', 'MNC', 'ISO'], on_bad_lines='skip')
   except pd.errors.ParserError:
     data = pd.read_csv(io.StringIO(response.text), sep=',', usecols=['MCC', 'MNC', 'ISO'], on_bad_lines='skip')
+  data['ISO'] = data['ISO'].astype(str)
+  data = data[data['ISO'].notna() & (data['ISO'] != '')]
   return data
 
 def process_domains_from_csv(csv_url):
@@ -38,6 +40,7 @@ def process_domains_from_csv(csv_url):
   # For each row in the CSV, generate the domain and resolve it
   for _, row in data.iterrows():
     country_code = row['ISO']
+    sanitized_country_code = country_code.replace('/', '-')
     mcc = str(int(row['MCC']))
     mnc = str(int(row['MNC']))
     
@@ -50,7 +53,7 @@ def process_domains_from_csv(csv_url):
       if resolved_ips:
         # Use a set to remove duplicate IPs
         unique_ips = set(resolved_ips)
-        countries[country_code][record_type].append((domain, unique_ips))
+        countries[sanitized_country_code][record_type].append((domain, unique_ips))
 
   # Prepare output files
   with open("_domains.txt", 'w') as all_file, open("_ipv4.txt", 'w') as ipv4_file, open("_ipv6.txt", 'w') as ipv6_file:
