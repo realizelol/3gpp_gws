@@ -1,7 +1,2 @@
-epdg.epc.mnc0.mcc330.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc110.mcc330.pub.3gppnetwork.org
 72.50.33.20
 72.50.33.21
-epdg.epc.mnc120.mcc330.pub.3gppnetwork.org
-127.0.0.1

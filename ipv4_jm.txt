@@ -1,12 +1,1 @@
-epdg.epc.mnc110.mcc338.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc180.mcc338.pub.3gppnetwork.org
 201.224.137.32
-epdg.epc.mnc20.mcc338.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc40.mcc338.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc50.mcc338.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc70.mcc338.pub.3gppnetwork.org
-127.0.0.1

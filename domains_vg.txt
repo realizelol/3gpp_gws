@@ -1,9 +1,3 @@
 VG
 epdg.epc.mnc170.mcc348.pub.3gppnetwork.org
 201.224.137.32
-epdg.epc.mnc370.mcc348.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc570.mcc348.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc770.mcc348.pub.3gppnetwork.org
-127.0.0.1

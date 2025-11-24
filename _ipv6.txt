@@ -9,9 +9,9 @@ epdg.epc.mnc152.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc100.mcc313.pub.3gppnetwork.org
 2600:387:f:707::1
 epdg.epc.mnc150.mcc310.pub.3gppnetwork.org
-2600:387:f:70b::1
+2600:387:f:707::1
 epdg.epc.mnc180.mcc311.pub.3gppnetwork.org
-2600:387:f:70b::1
+2600:387:f:707::1
 epdg.epc.mnc280.mcc310.pub.3gppnetwork.org
 2600:387:f:707::1
 epdg.epc.mnc410.mcc310.pub.3gppnetwork.org

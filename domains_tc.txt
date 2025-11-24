@@ -1,11 +1,3 @@
 TC
 epdg.epc.mnc350.mcc376.pub.3gppnetwork.org
 201.224.137.32
-epdg.epc.mnc351.mcc376.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc352.mcc376.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc360.mcc376.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc50.mcc338.pub.3gppnetwork.org
-127.0.0.1

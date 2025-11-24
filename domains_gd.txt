@@ -1,5 +1,3 @@
 GD
 epdg.epc.mnc110.mcc352.pub.3gppnetwork.org
 201.224.137.32
-epdg.epc.mnc30.mcc352.pub.3gppnetwork.org
-127.0.0.1

@@ -1,4 +1,1 @@
-epdg.epc.mnc10.mcc365.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc840.mcc365.pub.3gppnetwork.org
 201.224.137.32
