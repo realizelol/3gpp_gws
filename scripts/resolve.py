@@ -56,6 +56,8 @@ def process_domains_from_csv(csv_url):
   countries = defaultdict(lambda: defaultdict(list))
   with open("all_domains.txt", 'w') as all_file:
     for _, row in data.iterrows():
+      country_code = row['ISO']
+      sanitized_country_code = country_code.replace('/', '-').lower()
       mcc = str(row['MCC']).zfill(3)
       mnc = str(row['MNC']).zfill(3)
       domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
