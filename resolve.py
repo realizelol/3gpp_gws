@@ -20,8 +20,8 @@ def is_valid_ipv4(ip):
            ip_obj not in ipaddress.IPv4Network('10.0.0.0/8') and \
            ip_obj not in ipaddress.IPv4Network('172.16.0.0/12') and \
            ip_obj not in ipaddress.IPv4Network('192.168.0.0/16')
-    except ipaddress.AddressValueError:
-      return False
+  except ipaddress.AddressValueError:
+    return False
 
 def is_valid_ipv6(ip):
   try:
@@ -29,8 +29,8 @@ def is_valid_ipv6(ip):
     return ip_obj not in ipaddress.IPv6Network('::1/128') and \
            ip_obj not in ipaddress.IPv6Network('::/128') and \
            ip_obj not in ipaddress.IPv6Network('fc00::/7')
-    except ipaddress.AddressValueError:
-      return False
+  except ipaddress.AddressValueError:
+    return False
 
 def resolve_domain(domain, record_type='A'):
   try:
