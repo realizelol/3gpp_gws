@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "00 0,6,12,18 * * *"
+    - cron: "00 1 * * *"
 
 jobs:
   update:
@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 1
       - name: Create Backup.
         run:  |
-          output="$(curl -s https://mcc-mnc.net/mcc-mnc.csv)"; if [[ -n "${output}" ]]; then echo -e "${output}" > mcc-mnc.txt; fi
+          output="$(curl -s https://mcc-mnc.net/mcc-mnc.csv); if [[ -n "${output}" ]]; then echo -e "${output}" > mcc-mnc.txt; fi
       - name: Generate URIs.
         run:  |
           curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2}' | while read -r mcc mnc; do \
@@ -52,6 +52,7 @@ jobs:
         run:  |
           curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2" "tolower($6)}' | while read -r mcc mnc ciso; do
             if [[ -n ${mcc} ]] && [[ -n "${mnc}" ]] && [[ -n "${ciso}" ]]; then
+              ciso="$(echo "${ciso}" | sed "s|/|-/g")"
               rm -f 3gpp_domains_${ciso}.txt; touch 3gpp_domains_${ciso}.txt;
               rm -f 3gpp_4_${ciso}.txt; touch 3gpp_4_${ciso}.txt;
               rm -f 3gpp_6_${ciso}.txt; touch 3gpp_6_${ciso}.txt;
