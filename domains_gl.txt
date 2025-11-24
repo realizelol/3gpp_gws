@@ -1,5 +1,0 @@
-GL
-epdg.epc.mnc1.mcc290.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc290.pub.3gppnetwork.org
-127.0.0.1

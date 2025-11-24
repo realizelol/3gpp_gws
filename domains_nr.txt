@@ -1,3 +1,0 @@
-NR
-epdg.epc.mnc2.mcc536.pub.3gppnetwork.org
-127.0.0.1

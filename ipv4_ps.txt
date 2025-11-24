@@ -1,4 +1,0 @@
-epdg.epc.mnc5.mcc425.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc425.pub.3gppnetwork.org
-127.0.0.1

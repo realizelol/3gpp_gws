@@ -1,7 +1,0 @@
-KP
-epdg.epc.mnc193.mcc467.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc467.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc467.pub.3gppnetwork.org
-127.0.0.1

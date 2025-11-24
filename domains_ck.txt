@@ -1,3 +1,0 @@
-CK
-epdg.epc.mnc1.mcc548.pub.3gppnetwork.org
-127.0.0.1

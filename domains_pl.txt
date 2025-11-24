@@ -1,5 +1,0 @@
-epdg.epc.mnc001.mcc260.pub.3gppnetwork.org
-epdg.epc.mnc002.mcc260.pub.3gppnetwork.org
-epdg.epc.mnc003.mcc260.pub.3gppnetwork.org
-epdg.epc.mnc006.mcc260.pub.3gppnetwork.org
-epdg.epc.mnc098.mcc260.pub.3gppnetwork.org

@@ -1,7 +1,0 @@
-SY
-epdg.epc.mnc1.mcc417.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc417.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc9.mcc417.pub.3gppnetwork.org
-127.0.0.1

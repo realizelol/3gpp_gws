@@ -1,3 +1,0 @@
-MP
-epdg.epc.mnc370.mcc310.pub.3gppnetwork.org
-127.0.0.1

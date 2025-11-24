@@ -1,4 +1,0 @@
-epdg.epc.mnc001.mcc216.pub.3gppnetwork.org
-epdg.epc.mnc030.mcc216.pub.3gppnetwork.org
-epdg.epc.mnc070.mcc216.pub.3gppnetwork.org
-epdg.epc.mnc001.mcc216.pub.3gppnetwork.org

@@ -1,3 +1,0 @@
-IO
-epdg.epc.mnc1.mcc995.pub.3gppnetwork.org
-127.0.0.1

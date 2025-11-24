@@ -1,3 +1,0 @@
-SH
-epdg.epc.mnc1.mcc658.pub.3gppnetwork.org
-127.0.0.1

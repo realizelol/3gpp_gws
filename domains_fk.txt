@@ -1,3 +1,0 @@
-FK
-epdg.epc.mnc1.mcc750.pub.3gppnetwork.org
-127.0.0.1

@@ -1,8 +1,0 @@
-epdg.epc.mnc1.mcc457.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc457.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc457.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc8.mcc457.pub.3gppnetwork.org
-127.0.0.1

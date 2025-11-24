@@ -31,9 +31,9 @@ jobs:
       - name: Create Backup.
         run: |
           curl -s https://mcc-mnc.net/mcc-mnc.csv > /tmp/mcc-mnc.csv; \
-            if [[ $(grep -c ".*" /tmp/mcc-mnc.csv) -gt 100 ]]; then mv /tmp/mcc-mnc.csv mcc-mnc.csv; fi
+            if [[ $(grep -c ".*" /tmp/mcc-mnc.csv) -gt 100 ]]; then mv /tmp/mcc-mnc.csv backups/mcc-mnc.csv; fi
       - name: Generate outputs
-        run: python3 resolve.py
+        run: python3 scripts/resolve.py
       - name: Get current date
         id: date
         run: echo "date=$(date +'%Y-%m-%d - %H:%M:%S')" >> $GITHUB_OUTPUT

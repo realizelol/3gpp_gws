@@ -1,7 +1,0 @@
-epdg.epc.mnc003.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc004.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc008.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc016.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc017.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc020.mcc204.pub.3gppnetwork.org
-epdg.epc.mnc069.mcc204.pub.3gppnetwork.org

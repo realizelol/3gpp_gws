@@ -1,7 +1,0 @@
-NI
-epdg.epc.mnc21.mcc710.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc30.mcc710.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc73.mcc710.pub.3gppnetwork.org
-127.0.0.1

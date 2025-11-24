@@ -1,9 +1,0 @@
-GW
-epdg.epc.mnc1.mcc632.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc632.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc632.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc7.mcc632.pub.3gppnetwork.org
-127.0.0.1

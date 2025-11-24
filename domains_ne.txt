@@ -1,9 +1,0 @@
-NE
-epdg.epc.mnc1.mcc614.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc614.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc614.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc614.pub.3gppnetwork.org
-127.0.0.1
