@@ -6,6 +6,31 @@ import io
 import dns.resolver
 import socket
 from collections import defaultdict
+import ipaddress
+
+# Drop non-relevant IPs
+DROP_IPS_V4 = ['127.0.0.0', '0.0.0.0', '10.0.0.0', '172.16.0.0', '192.168.0.0']
+DROP_IPS_V6 = ['::1', '::', 'fc00::', 'fdff::']
+
+def is_valid_ipv4(ip):
+  try:
+    ip_obj = ipaddress.IPv4Address(ip)
+    return ip_obj not in ipaddress.IPv4Network('127.0.0.0/8') and \
+           ip_obj not in ipaddress.IPv4Network('0.0.0.0/8') and \
+           ip_obj not in ipaddress.IPv4Network('10.0.0.0/8') and \
+           ip_obj not in ipaddress.IPv4Network('172.16.0.0/12') and \
+           ip_obj not in ipaddress.IPv4Network('192.168.0.0/16')
+    except ipaddress.AddressValueError:
+      return False
+
+def is_valid_ipv6(ip):
+  try:
+    ip_obj = ipaddress.IPv6Address(ip)
+    return ip_obj not in ipaddress.IPv6Network('::1/128') and \
+           ip_obj not in ipaddress.IPv6Network('::/128') and \
+           ip_obj not in ipaddress.IPv6Network('fc00::/7')
+    except ipaddress.AddressValueError:
+      return False
 
 def resolve_domain(domain, record_type='A'):
   try:
@@ -50,9 +75,14 @@ def process_domains_from_csv(csv_url):
     # Resolve the domain for both IPv4 and IPv6
     for record_type in ['A', 'AAAA']:
       resolved_ips = resolve_domain(domain, record_type)
-      if resolved_ips:
-        # Use a set to remove duplicate IPs
-        unique_ips = set(resolved_ips)
+      valid_ips = []
+      for ip in resolved_ips:
+        if record_type == 'A' and is_valid_ipv4(ip):
+          valid_ips.append(ip)
+        elif record_type == 'AAAA' and is_valid_ipv6(ip):
+          valid_ips.append(ip)
+      if valid_ips:
+        unique_ips = set(valid_ips)
         countries[sanitized_country_code][record_type].append((domain, unique_ips))
 
   # Prepare output files
@@ -91,19 +121,16 @@ def process_domains_from_csv(csv_url):
         for record_type in ['A', 'AAAA']:
           if countries[country_code].get(record_type):
             for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-              country_file.write(f"{domain}\n")
+              if record_type == 'A':
+                country_file.write(f"{domain}\n")
               for ip in sorted(ips):
                 country_file.write(f"{ip}\n")
 
             if record_type == 'A':
-              for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-                ipv4_country_file.write(f"{domain}\n")
-                for ip in sorted(ips):
-                  ipv4_country_file.write(f"{ip}\n")
+              for ip in sorted(ips):
+                ipv4_country_file.write(f"{ip}\n")
             elif record_type == 'AAAA':
-              for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-                ipv6_country_file.write(f"{domain}\n")
-                for ip in sorted(ips):
-                  ipv6_country_file.write(f"{ip}\n")
+              for ip in sorted(ips):
+                ipv6_country_file.write(f"{ip}\n")
 
 process_domains_from_csv("https://mcc-mnc.net/mcc-mnc.csv")
