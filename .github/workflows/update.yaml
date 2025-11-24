@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "00 1 * * *"
+    - cron: "00 0,6,12,18 * * *"
 
 jobs:
   update:
@@ -52,7 +52,7 @@ jobs:
         run:  |
           curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2" "tolower($6)}' | while read -r mcc mnc ciso; do
             if [[ -n ${mcc} ]] && [[ -n "${mnc}" ]] && [[ -n "${ciso}" ]]; then
-              ciso="$(echo "${ciso}" | sed "s|/|-/g")"
+              ciso="$(echo "${ciso}" | sed "s|/|-|g")"
               rm -f 3gpp_domains_${ciso}.txt; touch 3gpp_domains_${ciso}.txt;
               rm -f 3gpp_4_${ciso}.txt; touch 3gpp_4_${ciso}.txt;
               rm -f 3gpp_6_${ciso}.txt; touch 3gpp_6_${ciso}.txt;
