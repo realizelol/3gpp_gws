@@ -1,0 +1,2 @@
+epdg.epc.mnc020.mcc366.pub.3gppnetwork.org
+epdg.epc.mnc110.mcc366.pub.3gppnetwork.org

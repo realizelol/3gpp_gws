@@ -1,0 +1,3 @@
+epdg.epc.mnc005.mcc467.pub.3gppnetwork.org
+epdg.epc.mnc006.mcc467.pub.3gppnetwork.org
+epdg.epc.mnc193.mcc467.pub.3gppnetwork.org

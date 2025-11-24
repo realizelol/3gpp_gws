@@ -1,0 +1,17 @@
+epdg.epc.mnc001.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc003.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc004.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc005.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc006.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc007.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc008.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc009.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc010.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc011.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc012.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc013.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc014.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc015.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc016.mcc620.pub.3gppnetwork.org
+epdg.epc.mnc017.mcc620.pub.3gppnetwork.org

@@ -1,0 +1,8 @@
+epdg.epc.mnc001.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc003.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc004.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc005.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc006.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc007.mcc612.pub.3gppnetwork.org
+epdg.epc.mnc018.mcc612.pub.3gppnetwork.org
