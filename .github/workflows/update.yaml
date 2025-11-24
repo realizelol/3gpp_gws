@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 1
       - name: Create Backup.
         run:  |
-          output="$(curl -s https://mcc-mnc.net/mcc-mnc.csv); if [[ -n "${output}" ]]; then echo -e "${output} > mcc-mnc.txt; fi
+          output="$(curl -s https://mcc-mnc.net/mcc-mnc.csv); if [[ -n "${output}" ]]; then echo -e "${output}" > mcc-mnc.txt; fi
       - name: Generate URIs.
         run:  |
           curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2}' | while read -r mcc mnc; do \
