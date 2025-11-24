@@ -5,7 +5,7 @@ on:
     branches:
       - master
   schedule:
-    - cron: "00 0,6,12,18 * * *"
+    - cron: "00 1 * * *"
 
 jobs:
   update:
@@ -31,7 +31,7 @@ jobs:
           rm -f 3gpp_4.txt; touch 3gpp_4.txt
           ip4regex="((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])"
           while read -r domain; do
-            out="$(dig +short @1.1.1.1 -t A "${domain}")"
+            out="$(dig +short @1.1.1.1 -t A "${domain}" 2>/dev/null || true)"
             if [[ "${out}" =~ "^${ip4regex}$" ]]; then echo "${out}" >> 3gpp_4.txt; fi
           done < 3gpp_domains.txt
       - name: Get all IPv6 addresses by looping DNS.
@@ -45,7 +45,7 @@ jobs:
             ([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))'
           ip6regex="$(printf '%s' "${ipregex//[[:space:]]/}" | sed 's/\|\\//g')"
           while read -r domain; do
-            out="$(dig +short @1.1.1.1 -t AAAA "${domain}")"
+            out="$(dig +short @1.1.1.1 -t AAAA "${domain}" 2>/dev/null || true)"
             if [[ "${out}" =~ "^${ip6regex}$" ]]; then echo "${out}" >> 3gpp_6.txt; fi
           done < 3gpp_domains.txt
       - name: Generate by Country (ISO-Code).
@@ -57,8 +57,8 @@ jobs:
               rm -f 3gpp_4_${ciso}.txt; touch 3gpp_4_${ciso}.txt;
               rm -f 3gpp_6_${ciso}.txt; touch 3gpp_6_${ciso}.txt;
               echo "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_domains_${ciso}.txt;
-              dig +short @1.1.1.1 -t A "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_4_${ciso}.txt;
-              dig +short @1.1.1.1 -t AAAA "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_4_${ciso}.txt;
+              dig +short @1.1.1.1 -t A "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" 2>/dev/null >> 3gpp_4_${ciso}.txt;
+              dig +short @1.1.1.1 -t AAAA "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" 2>/dev/null >> 3gpp_4_${ciso}.txt;
             fi;
           done
       - name: Get current date
