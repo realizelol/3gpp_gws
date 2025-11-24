@@ -65,8 +65,8 @@ def process_domains_from_csv(csv_url):
     for _, row in data.iterrows():
       country_code = row['ISO']
       sanitized_country_code = country_code.replace('/', '-')
-      mcc = str(int(row['MCC']))
-      mnc = str(int(row['MNC']))
+      mcc = str(int(row['MCC'])).zfill(3)
+      mnc = str(int(row['MNC'])).zfill(3)
       # Generate domain
       domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
       all_file.write(f"{domain}\n")
