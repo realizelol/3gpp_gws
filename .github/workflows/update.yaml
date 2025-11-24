@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - master
+  pull_request:
+    branches:
+      - master
   schedule:
     - cron: "00 1 * * *"
 
@@ -15,57 +18,27 @@ jobs:
         uses: actions/checkout@master
         with:
           fetch-depth: 1
+      - name: Set up Python
+        uses: actions/setup-python@main
+        with:
+          python-version: '3.x'
+          check-latest: true
+          cache: 'pip'
+      - name: Installiere Python-Abhängigkeiten
+        run: |
+          pip install dnspython
       - name: Create Backup.
-        run:  |
-          output="$(curl -s https://mcc-mnc.net/mcc-mnc.csv)"; if [[ -n "${output}" ]]; then echo -e "${output}" > mcc-mnc.txt; fi
-      - name: Generate URIs.
-        run:  |
-          curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2}' | while read -r mcc mnc; do \
-            if [[ -n ${mcc} ]] && [[ -n "${mnc}" ]]; then
-              echo "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_domains.txt;
-            fi;
-          done
-      - name: Get all IPv4 addresses by looping DNS.
-        run:  |
-          rm -f 3gpp_4.txt; touch 3gpp_4.txt
-          ip4regex="((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])"
-          while read -r domain; do
-            out="$(dig +short @1.1.1.1 -t A "${domain}" 2>/dev/null || true)"
-            if [[ "${out}" =~ "^${ip4regex}$" ]]; then echo "${out}" >> 3gpp_4.txt; fi
-          done < 3gpp_domains.txt
-      - name: Get all IPv6 addresses by looping DNS.
-        run:  |
-          rm -f 3gpp_6.txt; touch 3gpp_6.txt
-          ipregex='(([0-9a-fA-F]{1,4}:){7,7}[0-9a-fA-F]{1,4}|([0-9a-fA-F]{1,4}:){1,7}:|([0-9a-fA-F]{1,4}:){1,6}:[0-9a-fA-F]{1,4}|\
-            ([0-9a-fA-F]{1,4}:){1,5}(:[0-9a-fA-F]{1,4}){1,2}|([0-9a-fA-F]{1,4}:){1,4}(:[0-9a-fA-F]{1,4}){1,3}|\
-            ([0-9a-fA-F]{1,4}:){1,3}(:[0-9a-fA-F]{1,4}){1,4}|([0-9a-fA-F]{1,4}:){1,2}(:[0-9a-fA-F]{1,4}){1,5}|\
-            [0-9a-fA-F]{1,4}:((:[0-9a-fA-F]{1,4}){1,6})|:((:[0-9a-fA-F]{1,4}){1,7}|:)|fe80:(:[0-9a-fA-F]{0,4}){0,4}%[0-9a-zA-Z]{1,}|\
-            ::(ffff(:0{1,4}){0,1}:){0,1}((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])|\
-            ([0-9a-fA-F]{1,4}:){1,4}:((25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9])\.){3,3}(25[0-5]|(2[0-4]|1{0,1}[0-9]){0,1}[0-9]))'
-          ip6regex="$(printf '%s' "${ipregex//[[:space:]]/}" | sed 's/\|\\//g')"
-          while read -r domain; do
-            out="$(dig +short @1.1.1.1 -t AAAA "${domain}" 2>/dev/null || true)"
-            if [[ "${out}" =~ "^${ip6regex}$" ]]; then echo "${out}" >> 3gpp_6.txt; fi
-          done < 3gpp_domains.txt
-      - name: Generate by Country (ISO-Code).
-        run:  |
-          curl -s https://mcc-mnc.net/mcc-mnc.csv | awk -F';' '{print$1" "$2" "tolower($6)}' | while read -r mcc mnc ciso; do
-            if [[ -n ${mcc} ]] && [[ -n "${mnc}" ]] && [[ -n "${ciso}" ]]; then
-              ciso="$(echo "${ciso}" | sed "s|/|-|g")"
-              rm -f 3gpp_domains_${ciso}.txt; touch 3gpp_domains_${ciso}.txt;
-              rm -f 3gpp_4_${ciso}.txt; touch 3gpp_4_${ciso}.txt;
-              rm -f 3gpp_6_${ciso}.txt; touch 3gpp_6_${ciso}.txt;
-              echo "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_domains_${ciso}.txt;
-              dig +short @1.1.1.1 -t A "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" 2>/dev/null >> 3gpp_4_${ciso}.txt;
-              dig +short @1.1.1.1 -t AAAA "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" 2>/dev/null >> 3gpp_4_${ciso}.txt;
-            fi;
-          done
+        run: |
+          curl -s https://mcc-mnc.net/mcc-mnc.csv > /tmp/mcc-mnc.csv)"; \
+            if [[ $(grep -c ".*" /tmp/mcc-mnc.csv -gt 100 ]]; then mv /tmp/mcc-mnc.csv mcc-mnc.csv; fi
+      - name: Generate outputs
+        run: python3 resolve.py
       - name: Get current date
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d - %H:%M:%S')"
       - name: Upload Stuff to GitHub via https://github.com/stefanzweifel/git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          file_pattern: '*.txt'
+          file_pattern: '*.txt *.csv'
           disable_globbing: true
           commit_message: Update 3GPP Lists - ${{ steps.date.outputs.date }}
