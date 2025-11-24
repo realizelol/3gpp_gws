@@ -1,3 +1,1 @@
-AD
-epdg.epc.mnc3.mcc213.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc003.mcc213.pub.3gppnetwork.org

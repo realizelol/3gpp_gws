@@ -1,9 +1,3 @@
-QA
-epdg.epc.mnc1.mcc427.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc427.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc427.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc427.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc001.mcc427.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc427.pub.3gppnetwork.org
+epdg.epc.mnc006.mcc427.pub.3gppnetwork.org

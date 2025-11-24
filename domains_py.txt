@@ -1,13 +1,1 @@
-PY
-epdg.epc.mnc1.mcc744.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc744.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc744.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc744.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc744.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc744.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc002.mcc744.pub.3gppnetwork.org

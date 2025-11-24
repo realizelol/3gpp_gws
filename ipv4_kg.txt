@@ -1,12 +1,4 @@
-epdg.epc.mnc1.mcc437.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc10.mcc437.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc11.mcc437.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc437.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc437.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc9.mcc437.pub.3gppnetwork.org
-127.0.0.1
+91.192.66.38
+91.192.66.48
+109.71.228.38
+194.152.37.84

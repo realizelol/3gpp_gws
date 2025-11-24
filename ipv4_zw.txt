@@ -1,6 +1,2 @@
-epdg.epc.mnc1.mcc648.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc648.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc648.pub.3gppnetwork.org
-127.0.0.1
+77.246.51.102
+77.246.51.73

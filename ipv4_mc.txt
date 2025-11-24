@@ -1,2 +1,2 @@
-epdg.epc.mnc10.mcc212.pub.3gppnetwork.org
-127.0.0.1
+82.113.13.194
+82.113.13.195

@@ -1,9 +1,3 @@
-HR
-epdg.epc.mnc1.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc10.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc12.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc219.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc001.mcc219.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc219.pub.3gppnetwork.org
+epdg.epc.mnc010.mcc219.pub.3gppnetwork.org

@@ -1,7 +1,1 @@
-ME
-epdg.epc.mnc1.mcc297.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc297.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc297.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc002.mcc297.pub.3gppnetwork.org

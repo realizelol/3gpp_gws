@@ -1,8 +1,1 @@
-epdg.epc.mnc1.mcc617.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc10.mcc617.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc617.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc617.pub.3gppnetwork.org
-127.0.0.1
+41.223.77.135

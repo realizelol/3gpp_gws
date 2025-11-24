@@ -1,11 +1,1 @@
-CR
-epdg.epc.mnc1.mcc712.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc712.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc20.mcc712.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc712.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc712.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc004.mcc712.pub.3gppnetwork.org

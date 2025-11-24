@@ -1,3 +1,1 @@
-GU
 epdg.epc.mnc140.mcc310.pub.3gppnetwork.org
-202.151.93.1

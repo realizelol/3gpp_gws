@@ -1,13 +1,3 @@
-AZ
-epdg.epc.mnc1.mcc400.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc400.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc400.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc400.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc400.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc400.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc001.mcc400.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc400.pub.3gppnetwork.org
+epdg.epc.mnc004.mcc400.pub.3gppnetwork.org

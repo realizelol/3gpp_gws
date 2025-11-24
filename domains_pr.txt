@@ -1,4 +1,1 @@
-PR
 epdg.epc.mnc110.mcc330.pub.3gppnetwork.org
-72.50.33.20
-72.50.33.21

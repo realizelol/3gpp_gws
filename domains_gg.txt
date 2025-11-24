@@ -1,7 +1,1 @@
-GG
-epdg.epc.mnc3.mcc234.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc50.mcc234.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc55.mcc234.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc055.mcc234.pub.3gppnetwork.org

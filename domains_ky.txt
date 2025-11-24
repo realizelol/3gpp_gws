@@ -1,3 +1,1 @@
-KY
 epdg.epc.mnc140.mcc346.pub.3gppnetwork.org
-201.224.137.32

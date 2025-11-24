@@ -1,6 +1,4 @@
-AR
+epdg.epc.mnc010.mcc722.pub.3gppnetwork.org
+epdg.epc.mnc034.mcc722.pub.3gppnetwork.org
 epdg.epc.mnc310.mcc722.pub.3gppnetwork.org
-131.100.108.120
-131.100.108.121
 epdg.epc.mnc341.mcc722.pub.3gppnetwork.org
-181.10.205.24

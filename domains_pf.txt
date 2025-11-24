@@ -1,9 +1,1 @@
-PF
-epdg.epc.mnc10.mcc547.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc15.mcc547.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc20.mcc547.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc547.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc005.mcc547.pub.3gppnetwork.org

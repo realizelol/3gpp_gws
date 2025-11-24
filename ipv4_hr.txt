@@ -1,8 +1,6 @@
-epdg.epc.mnc1.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc10.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc12.mcc219.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc219.pub.3gppnetwork.org
-127.0.0.1
+195.29.253.164
+195.29.253.234
+86.33.248.210
+86.33.248.82
+212.91.113.181
+212.91.113.210

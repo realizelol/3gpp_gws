@@ -1,11 +1,2 @@
-PE
-epdg.epc.mnc10.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc15.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc17.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc7.mcc716.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc006.mcc716.pub.3gppnetwork.org
+epdg.epc.mnc017.mcc716.pub.3gppnetwork.org

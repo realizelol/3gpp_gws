@@ -1,3 +1,1 @@
-AG
 epdg.epc.mnc920.mcc344.pub.3gppnetwork.org
-201.224.137.32

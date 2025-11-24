@@ -1,9 +1,1 @@
-MN
-epdg.epc.mnc88.mcc428.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc91.mcc428.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc98.mcc428.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc99.mcc428.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc099.mcc428.pub.3gppnetwork.org

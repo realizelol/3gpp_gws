@@ -1,8 +1,6 @@
-epdg.epc.mnc1.mcc283.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc10.mcc283.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc283.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc283.pub.3gppnetwork.org
-127.0.0.1
+212.73.72.124
+212.73.72.60
+217.76.2.165
+217.76.2.170
+178.78.170.1
+178.78.171.1

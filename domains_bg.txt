@@ -1,15 +1,2 @@
-BG
-epdg.epc.mnc1.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc11.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc13.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc7.mcc284.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc9.mcc284.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc001.mcc284.pub.3gppnetwork.org
+epdg.epc.mnc003.mcc284.pub.3gppnetwork.org

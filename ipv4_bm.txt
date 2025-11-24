@@ -1,16 +1,1 @@
-epdg.epc.mnc0.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc1.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc11.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc15.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc350.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc50.mcc338.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc59.mcc310.pub.3gppnetwork.org
-127.0.0.1
+63.143.112.200

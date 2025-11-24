@@ -1,10 +1,4 @@
-epdg.epc.mnc10.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc15.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc17.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc716.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc7.mcc716.pub.3gppnetwork.org
-127.0.0.1
+201.230.206.157
+201.230.206.7
+186.160.129.160
+186.160.197.100

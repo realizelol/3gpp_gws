@@ -1,3 +1,1 @@
-VC
 epdg.epc.mnc110.mcc360.pub.3gppnetwork.org
-201.224.137.32

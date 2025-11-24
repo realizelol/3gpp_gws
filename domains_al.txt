@@ -1,9 +1,1 @@
-AL
-epdg.epc.mnc1.mcc276.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc276.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc276.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc276.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc002.mcc276.pub.3gppnetwork.org

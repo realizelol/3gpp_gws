@@ -1,4 +1,1 @@
-AS
 epdg.epc.mnc780.mcc311.pub.3gppnetwork.org
-208.136.102.140
-208.136.102.141

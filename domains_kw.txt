@@ -1,7 +1,2 @@
-KW
-epdg.epc.mnc2.mcc419.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc419.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc419.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc003.mcc419.pub.3gppnetwork.org
+epdg.epc.mnc004.mcc419.pub.3gppnetwork.org

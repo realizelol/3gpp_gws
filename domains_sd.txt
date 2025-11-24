@@ -1,13 +1,2 @@
-SD
-epdg.epc.mnc1.mcc634.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc634.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc634.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc634.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc7.mcc634.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc9.mcc634.pub.3gppnetwork.org
-127.0.0.1
+epdg.epc.mnc001.mcc634.pub.3gppnetwork.org
+epdg.epc.mnc007.mcc634.pub.3gppnetwork.org

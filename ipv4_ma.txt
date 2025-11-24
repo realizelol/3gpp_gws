@@ -1,14 +1,2 @@
-epdg.epc.mnc0.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc1.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc2.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc4.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc5.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc6.mcc604.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc99.mcc604.pub.3gppnetwork.org
-127.0.0.1
+197.230.202.184
+197.230.202.185

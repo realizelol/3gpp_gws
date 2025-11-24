@@ -1,8 +1,2 @@
-epdg.epc.mnc28.mcc234.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc3.mcc234.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc50.mcc234.pub.3gppnetwork.org
-127.0.0.1
-epdg.epc.mnc55.mcc234.pub.3gppnetwork.org
-127.0.0.1
+212.30.15.204
+212.30.15.205
