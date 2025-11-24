@@ -11,9 +11,12 @@ def resolve_domain(domain, record_type='A'):
   try:
     # Use dnspython to resolve the domain
     resolver = dns.resolver.Resolver()
+    resolver.timeout = 10  # Erhöht das Timeout auf 10 Sekunden
+    resolver.lifetime = 15  # Erhöht die maximale Lebensdauer der Anfrage
+    resolver.nameservers = ['8.8.8.8', '1.1.1.1']
     answer = resolver.resolve(domain, record_type)
     return [rdata.to_text() for rdata in answer]
-  except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, socket.gaierror) as e:
+  except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, socket.gaierror) as e:
     # If the domain cannot be resolved, return an empty list
     return []
 
