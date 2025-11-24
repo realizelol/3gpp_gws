@@ -23,7 +23,7 @@ jobs:
         with:
           python-version: '3.x'
           check-latest: true
-          cache: 'pip'
+          #cache: 'pip'
       - name: Installiere Python-Abhängigkeiten
         run: |
           pip install dnspython
