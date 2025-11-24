@@ -25,7 +25,6 @@ jobs:
               echo "epdg.epc.mnc"${mnc}".mcc"${mcc}".pub.3gppnetwork.org" >> 3gpp_domains.txt;
             fi;
           done
-          if [[ -n "${out}" ]]; then echo "${out}" > 3gpp_domains.txt; fi
       - name: Get all IPv4 addresses by looping DNS.
         run:  |
           rm -f 3gpp_4.txt; touch 3gpp_4.txt
