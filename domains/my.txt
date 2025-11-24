@@ -2,7 +2,6 @@ epdg.epc.mnc001.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc010.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc011.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc012.mcc502.pub.3gppnetwork.org
-epdg.epc.mnc013.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc014.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc016.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc017.mcc502.pub.3gppnetwork.org

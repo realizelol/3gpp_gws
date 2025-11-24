@@ -20,5 +20,4 @@ epdg.epc.mnc035.mcc724.pub.3gppnetwork.org
 epdg.epc.mnc036.mcc724.pub.3gppnetwork.org
 epdg.epc.mnc037.mcc724.pub.3gppnetwork.org
 epdg.epc.mnc038.mcc724.pub.3gppnetwork.org
-epdg.epc.mnc039.mcc724.pub.3gppnetwork.org
 epdg.epc.mnc099.mcc724.pub.3gppnetwork.org

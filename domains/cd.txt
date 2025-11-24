@@ -1,7 +1,5 @@
 epdg.epc.mnc001.mcc630.pub.3gppnetwork.org
 epdg.epc.mnc002.mcc630.pub.3gppnetwork.org
 epdg.epc.mnc005.mcc630.pub.3gppnetwork.org
-epdg.epc.mnc086.mcc630.pub.3gppnetwork.org
 epdg.epc.mnc088.mcc630.pub.3gppnetwork.org
-epdg.epc.mnc089.mcc630.pub.3gppnetwork.org
 epdg.epc.mnc090.mcc630.pub.3gppnetwork.org

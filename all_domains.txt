@@ -463,8 +463,6 @@ epdg.epc.mnc019.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc018.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc013.mcc502.pub.3gppnetwork.org
 epdg.epc.mnc016.mcc502.pub.3gppnetwork.org
-epdg.epc.mnc001.mcc649.pub.3gppnetwork.org
-epdg.epc.mnc003.mcc649.pub.3gppnetwork.org
 epdg.epc.mnc001.mcc546.pub.3gppnetwork.org
 epdg.epc.mnc002.mcc614.pub.3gppnetwork.org
 epdg.epc.mnc004.mcc614.pub.3gppnetwork.org
@@ -1154,7 +1152,6 @@ epdg.epc.mnc005.mcc405.pub.3gppnetwork.org
 epdg.epc.mnc844.mcc405.pub.3gppnetwork.org
 epdg.epc.mnc913.mcc405.pub.3gppnetwork.org
 epdg.epc.mnc011.mcc350.pub.3gppnetwork.org
-epdg.epc.mnc005.mcc649.pub.3gppnetwork.org
 epdg.epc.mnc025.mcc206.pub.3gppnetwork.org
 epdg.epc.mnc033.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc004.mcc505.pub.3gppnetwork.org
@@ -1717,7 +1714,6 @@ epdg.epc.mnc010.mcc629.pub.3gppnetwork.org
 epdg.epc.mnc012.mcc655.pub.3gppnetwork.org
 epdg.epc.mnc002.mcc645.pub.3gppnetwork.org
 epdg.epc.mnc061.mcc901.pub.3gppnetwork.org
-epdg.epc.mnc006.mcc649.pub.3gppnetwork.org
 epdg.epc.mnc003.mcc634.pub.3gppnetwork.org
 epdg.epc.mnc001.mcc438.pub.3gppnetwork.org
 epdg.epc.mnc039.mcc901.pub.3gppnetwork.org
@@ -1918,7 +1914,6 @@ epdg.epc.mnc080.mcc552.pub.3gppnetwork.org
 epdg.epc.mnc001.mcc552.pub.3gppnetwork.org
 epdg.epc.mnc008.mcc440.pub.3gppnetwork.org
 epdg.epc.mnc450.mcc311.pub.3gppnetwork.org
-epdg.epc.mnc004.mcc649.pub.3gppnetwork.org
 epdg.epc.mnc010.mcc425.pub.3gppnetwork.org
 epdg.epc.mnc024.mcc425.pub.3gppnetwork.org
 epdg.epc.mnc020.mcc454.pub.3gppnetwork.org
@@ -2289,7 +2284,6 @@ epdg.epc.mnc003.mcc542.pub.3gppnetwork.org
 epdg.epc.mnc043.mcc222.pub.3gppnetwork.org
 epdg.epc.mnc048.mcc222.pub.3gppnetwork.org
 epdg.epc.mnc040.mcc418.pub.3gppnetwork.org
-epdg.epc.mnc002.mcc649.pub.3gppnetwork.org
 epdg.epc.mnc005.mcc350.pub.3gppnetwork.org
 epdg.epc.mnc000.mcc530.pub.3gppnetwork.org
 epdg.epc.mnc002.mcc530.pub.3gppnetwork.org
