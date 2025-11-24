@@ -2,6 +2,7 @@
 
 import requests
 import pandas as pd
+import io
 import dns.resolver
 import socket
 from collections import defaultdict
@@ -20,7 +21,7 @@ def download_csv(url):
   response = requests.get(url)
   response.raise_for_status()
   # Load CSV data into a pandas DataFrame
-  data = pd.read_csv(pd.compat.StringIO(response.text))
+  data = pd.read_csv(io.StringIO(response.text))
   return data
 
 def process_domains_from_csv(csv_url):
