@@ -79,9 +79,10 @@ def process_domains_from_csv(csv_url):
     
     # Write individual country files
     for country_code in sorted(countries.keys()):
-      with open(f"domains_{country_code.lower()}.txt", 'w') as country_file, \
-         open(f"ipv4_{country_code.lower()}.txt", 'w') as ipv4_country_file, \
-         open(f"ipv6_{country_code.lower()}.txt", 'w') as ipv6_country_file:
+      sanitized_country_code = country_code.replace('/', '-')
+      with open(f"domains_{sanitized_country_code.lower()}.txt", 'w') as country_file, \
+         open(f"ipv4_{sanitized_country_code.lower()}.txt", 'w') as ipv4_country_file, \
+         open(f"ipv6_{sanitized_country_code.lower()}.txt", 'w') as ipv6_country_file:
         
         country_file.write(f"{country_code}\n")
         for record_type in ['A', 'AAAA']:
