@@ -13,6 +13,8 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout the repo
         uses: actions/checkout@master
@@ -23,8 +25,7 @@ jobs:
         with:
           python-version: '3.x'
           check-latest: true
-          #cache: 'pip'
-      - name: Installiere Python-Abhängigkeiten
+      - name: Install Python dependencies
         run: |
           pip3 install requests pandas dnspython
       - name: Create Backup.
@@ -35,7 +36,7 @@ jobs:
         run: python3 resolve.py
       - name: Get current date
         id: date
-        run: echo "::set-output name=date::$(date +'%Y-%m-%d - %H:%M:%S')"
+        run: echo "date=$(date +'%Y-%m-%d - %H:%M:%S')" >> $GITHUB_OUTPUT
       - name: Upload Stuff to GitHub via https://github.com/stefanzweifel/git-auto-commit-action
         uses: stefanzweifel/git-auto-commit-action@v7
         with:
