@@ -35,7 +35,6 @@ def ip_to_int(ip, ver):
     return int(ipaddress.IPv6Address(ip))
 
 def sort_ips(ips, version):
-  # Überprüfe die IPs und sortiere sie, je nach Version (IPv4 oder IPv6)
   valid_ips = [ip for ip in ips if (is_valid_ipv4(ip) if version == 4 else is_valid_ipv6(ip))]
   return sorted(valid_ips, key=lambda ip: ip_to_int(ip, version))
 
@@ -63,14 +62,16 @@ def download_csv(url):
     return pd.DataFrame()
 
 def process_domains_from_csv(csv_url):
+  all_domains = []
+  all_ipv4_ips = []
+  all_ipv6_ips = []
   data = download_csv(csv_url)
   if data.empty:
     print("CSV contains no valid data")
     return
-
-  all_domains = []
   countries = defaultdict(lambda: defaultdict(list))
   country_domains = defaultdict(list)
+
   for _, row in data.iterrows():
     mcc = str(row['MCC']).zfill(3)
     mnc = str(row['MNC']).zfill(3)
@@ -85,8 +86,10 @@ def process_domains_from_csv(csv_url):
     ipv6_addresses = resolve_domain(domain, 'AAAA')
     if ipv4_addresses:
       countries[country_code]['A'].append((domain, ipv4_addresses))
+      all_ipv4_ips.extend(ipv4_addresses)
     if ipv6_addresses:
       countries[country_code]['AAAA'].append((domain, ipv6_addresses))
+      all_ipv6_ips.extend(ipv6_addresses)
 
   all_domains.sort()
   with open("all_domains.txt", 'w') as file:
@@ -98,23 +101,34 @@ def process_domains_from_csv(csv_url):
     with open(country_file_path, 'w') as country_file:
       country_file.write("\n".join(sorted_domains) + "\n")
 
-  with open("all_ipv4.txt", 'w') as ipv4_file, open("all_ipv6.txt", 'w') as ipv6_file:
-    for country_code in sorted(countries.keys()):
-      sanitized_country_code = country_code.replace('/', '-').lower()
-      with open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
-           open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
-        for record_type in ['A', 'AAAA']:
-          if countries[country_code].get(record_type):
-            for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-              if record_type == 'A':
-                sorted_ipv4 = sort_ips(ips, 4)
-                for ip in sorted_ipv4:
-                  ipv4_file.write(f"{ip}\n")
-                  ipv4_country_file.write(f"{ip}\n")
-              elif record_type == 'AAAA':
-                sorted_ipv6 = sort_ips(ips, 6)
-                for ip in sorted_ipv6:
-                  ipv6_file.write(f"{ip}\n")
-                  ipv6_country_file.write(f"{ip}\n")
+  all_ipv4_ips_sorted = sort_ips(all_ipv4_ips, 4)
+  all_ipv6_ips_sorted = sort_ips(all_ipv6_ips, 6)
+  with open("all_ipv4.txt", 'w') as ipv4_file:
+    for ip in all_ipv4_ips_sorted:
+      ipv4_file.write(f"{ip}\n")
+  with open("all_ipv6.txt", 'w') as ipv6_file:
+    for ip in all_ipv6_ips_sorted:
+      ipv6_file.write(f"{ip}\n")
+
+  for country_code in sorted(countries.keys()):
+    sanitized_country_code = country_code.replace('/', '-').lower()
+    with open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
+         open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
+
+      if countries[country_code].get('A'):
+        ipv4_ips = []
+        for domain, ips in countries[country_code]['A']:
+          ipv4_ips.extend(ips)
+        sorted_ipv4 = sort_ips(ipv4_ips, 4)
+        for ip in sorted_ipv4:
+          ipv4_country_file.write(f"{ip}\n")
+
+      if countries[country_code].get('AAAA'):
+        ipv6_ips = []
+        for domain, ips in countries[country_code]['AAAA']:
+          ipv6_ips.extend(ips)
+        sorted_ipv6 = sort_ips(ipv6_ips, 6)
+        for ip in sorted_ipv6:
+          ipv6_country_file.write(f"{ip}\n")
 
 process_domains_from_csv("https://mcc-mnc.net/mcc-mnc.csv")
