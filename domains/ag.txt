@@ -1,0 +1,4 @@
+epdg.epc.mnc030.mcc344.pub.3gppnetwork.org
+epdg.epc.mnc050.mcc344.pub.3gppnetwork.org
+epdg.epc.mnc920.mcc344.pub.3gppnetwork.org
+epdg.epc.mnc930.mcc344.pub.3gppnetwork.org

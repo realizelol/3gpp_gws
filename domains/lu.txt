@@ -1,0 +1,11 @@
+epdg.epc.mnc001.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc002.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc007.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc010.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc071.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc077.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc078.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc079.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc080.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc081.mcc270.pub.3gppnetwork.org
+epdg.epc.mnc099.mcc270.pub.3gppnetwork.org

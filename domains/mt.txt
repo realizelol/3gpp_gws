@@ -1,0 +1,5 @@
+epdg.epc.mnc001.mcc278.pub.3gppnetwork.org
+epdg.epc.mnc011.mcc278.pub.3gppnetwork.org
+epdg.epc.mnc021.mcc278.pub.3gppnetwork.org
+epdg.epc.mnc030.mcc278.pub.3gppnetwork.org
+epdg.epc.mnc077.mcc278.pub.3gppnetwork.org

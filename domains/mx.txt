@@ -1,0 +1,17 @@
+epdg.epc.mnc001.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc010.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc020.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc030.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc040.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc050.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc060.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc066.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc070.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc080.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc090.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc100.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc110.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc120.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc130.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc140.mcc334.pub.3gppnetwork.org
+epdg.epc.mnc150.mcc334.pub.3gppnetwork.org
