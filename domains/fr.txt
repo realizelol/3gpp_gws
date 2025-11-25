@@ -43,6 +43,7 @@ epdg.epc.mnc091.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc092.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc093.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc094.mcc208.pub.3gppnetwork.org
+epdg.epc.mnc095.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc096.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc097.mcc208.pub.3gppnetwork.org
 epdg.epc.mnc098.mcc208.pub.3gppnetwork.org

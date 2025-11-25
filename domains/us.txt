@@ -83,7 +83,6 @@ epdg.epc.mnc180.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc180.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc190.mcc310.pub.3gppnetwork.org
 epdg.epc.mnc190.mcc311.pub.3gppnetwork.org
-epdg.epc.mnc190.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc200.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc200.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc200.mcc313.pub.3gppnetwork.org
@@ -283,7 +282,6 @@ epdg.epc.mnc820.mcc310.pub.3gppnetwork.org
 epdg.epc.mnc820.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc820.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc830.mcc310.pub.3gppnetwork.org
-epdg.epc.mnc830.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc830.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc840.mcc310.pub.3gppnetwork.org
 epdg.epc.mnc840.mcc311.pub.3gppnetwork.org
@@ -295,6 +293,7 @@ epdg.epc.mnc860.mcc310.pub.3gppnetwork.org
 epdg.epc.mnc860.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc860.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc870.mcc310.pub.3gppnetwork.org
+epdg.epc.mnc870.mcc311.pub.3gppnetwork.org
 epdg.epc.mnc870.mcc312.pub.3gppnetwork.org
 epdg.epc.mnc880.mcc310.pub.3gppnetwork.org
 epdg.epc.mnc880.mcc311.pub.3gppnetwork.org
