@@ -93,20 +93,19 @@ def process_domains_from_csv(csv_url):
   with open("all_ipv4.txt", 'w') as ipv4_file, open("all_ipv6.txt", 'w') as ipv6_file:
     for country_code in sorted(countries.keys()):
       sanitized_country_code = country_code.replace('/', '-').lower()
-
       with open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
            open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
-
         for record_type in ['A', 'AAAA']:
           if countries[country_code].get(record_type):
             for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
               if record_type == 'A':
-                ips_sorted = sorted(ips, key=ip_to_int)
+                ips_sorted = sorted([ip for ip in ips if is_valid_ipv4(ip)], key=ip_to_int)
                 for ip in ips_sorted:
                   ipv4_file.write(f"{ip}\n")
                   ipv4_country_file.write(f"{ip}\n")
               elif record_type == 'AAAA':
-                for ip in sorted(ips):
+                ips_sorted = sorted([ip for ip in ips if is_valid_ipv6(ip)])
+                for ip in ips_sorted:
                   ipv6_file.write(f"{ip}\n")
                   ipv6_country_file.write(f"{ip}\n")
 
