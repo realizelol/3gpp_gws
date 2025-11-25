@@ -7,6 +7,7 @@ import dns.resolver
 import socket
 from collections import defaultdict
 import ipaddress
+import os
 
 def is_valid_ipv4(ip):
   try:
@@ -40,12 +41,19 @@ def resolve_domain(domain, record_type='A'):
     print(f"Error resolving domain {domain} (type {record_type}): {e}")
     return []
 
-written_domains = set()
-def add_domain_to_file(filename, domain):
-    if domain not in written_domains:
-        with open(filename, 'a') as file:
-            file.write(f"{domain}\n")
-        written_domains.add(domain)
+def load_written_domains(filename="all_domains.txt"):
+  written_domains = set()
+  if os.path.exists(filename):
+    with open(filename, 'r') as file:
+      for line in file:
+        written_domains.add(line.strip())
+  return written_domains
+
+def add_domain_to_file(filename, domain, written_domains):
+  if domain not in written_domains:
+    with open(filename, 'a') as file:
+      file.write(f"{domain}\n")
+    written_domains.add(domain)
 
 def download_csv(url):
   response = requests.get(url)
@@ -62,8 +70,8 @@ def process_domains_from_csv(csv_url):
   if data.empty:
     print("CSV contains no valid data")
     return
-  data = data[data['ISO'].notna() & (data['ISO'].str.strip() != '')]
-
+  #data = data[data['ISO'].notna() & (data['ISO'].str.strip() != '')]
+  written_domains = load_written_domains()
   countries = defaultdict(lambda: defaultdict(list))
   for _, row in data.iterrows():
     mcc = str(row['MCC']).zfill(3)
@@ -73,15 +81,15 @@ def process_domains_from_csv(csv_url):
     #    continue
     sanitized_country_code = country_code.replace('/', '-').lower()
     domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
-    add_domain_to_file("all_domains.txt", domain)
-    add_domain_to_file(f"domains/{sanitized_country_code}.txt", domain)
+    add_domain_to_file("all_domains.txt", domain, written_domains)
+    add_domain_to_file(f"domains/{sanitized_country_code}.txt", domain, written_domains)
 
     ipv4_addresses = resolve_domain(domain, 'A')
     ipv6_addresses = resolve_domain(domain, 'AAAA')
     if ipv4_addresses:
-        countries[country_code]['A'].append((domain, ipv4_addresses))
+      countries[country_code]['A'].append((domain, ipv4_addresses))
     if ipv6_addresses:
-        countries[country_code]['AAAA'].append((domain, ipv6_addresses))
+      countries[country_code]['AAAA'].append((domain, ipv6_addresses))
 
   with open("all_ipv4.txt", 'w') as ipv4_file, open("all_ipv6.txt", 'w') as ipv6_file:
     for country_code in sorted(countries.keys()):
