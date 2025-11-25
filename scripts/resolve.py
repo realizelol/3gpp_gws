@@ -60,8 +60,9 @@ def process_domains_from_csv(csv_url):
     print("CSV contains no valid data")
     return
 
-  countries = defaultdict(lambda: defaultdict(list))
   all_domains = []
+  countries = defaultdict(lambda: defaultdict(list))
+  country_domains = defaultdict(list)
   for _, row in data.iterrows():
     mcc = str(row['MCC']).zfill(3)
     mnc = str(row['MNC']).zfill(3)
