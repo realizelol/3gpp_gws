@@ -63,8 +63,8 @@ def download_csv(url):
 
 def process_domains_from_csv(csv_url):
   all_domains = []
-  all_ipv4_ips = []
-  all_ipv6_ips = []
+  all_ipv4_ips = set()
+  all_ipv6_ips = set()
   data = download_csv(csv_url)
   if data.empty:
     print("CSV contains no valid data")
@@ -86,10 +86,10 @@ def process_domains_from_csv(csv_url):
     ipv6_addresses = resolve_domain(domain, 'AAAA')
     if ipv4_addresses:
       countries[country_code]['A'].append((domain, ipv4_addresses))
-      all_ipv4_ips.extend(ipv4_addresses)
+      all_ipv4_ips.update(ipv4_addresses)
     if ipv6_addresses:
       countries[country_code]['AAAA'].append((domain, ipv6_addresses))
-      all_ipv6_ips.extend(ipv6_addresses)
+      all_ipv6_ips.update(ipv6_addresses)
 
   all_domains.sort()
   with open("all_domains.txt", 'w') as file:
@@ -101,8 +101,8 @@ def process_domains_from_csv(csv_url):
     with open(country_file_path, 'w') as country_file:
       country_file.write("\n".join(sorted_domains) + "\n")
 
-  all_ipv4_ips_sorted = sort_ips(all_ipv4_ips, 4)
-  all_ipv6_ips_sorted = sort_ips(all_ipv6_ips, 6)
+  all_ipv4_ips_sorted = sort_ips(list(all_ipv4_ips), 4)
+  all_ipv6_ips_sorted = sort_ips(list(all_ipv6_ips), 6)
   with open("all_ipv4.txt", 'w') as ipv4_file:
     for ip in all_ipv4_ips_sorted:
       ipv4_file.write(f"{ip}\n")
@@ -116,18 +116,18 @@ def process_domains_from_csv(csv_url):
          open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
 
       if countries[country_code].get('A'):
-        ipv4_ips = []
+        ipv4_ips = set()
         for domain, ips in countries[country_code]['A']:
-          ipv4_ips.extend(ips)
-        sorted_ipv4 = sort_ips(ipv4_ips, 4)
+          ipv4_ips.update(ips)
+        sorted_ipv4 = sort_ips(list(ipv4_ips), 4)
         for ip in sorted_ipv4:
           ipv4_country_file.write(f"{ip}\n")
 
       if countries[country_code].get('AAAA'):
-        ipv6_ips = []
+        ipv6_ips = set()
         for domain, ips in countries[country_code]['AAAA']:
-          ipv6_ips.extend(ips)
-        sorted_ipv6 = sort_ips(ipv6_ips, 6)
+          ipv6_ips.update(ips)
+        sorted_ipv6 = sort_ips(list(ipv6_ips), 6)
         for ip in sorted_ipv6:
           ipv6_country_file.write(f"{ip}\n")
 
