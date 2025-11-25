@@ -7,7 +7,8 @@ Error resolving domain epdg.epc.mnc050.mcc412.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc020.mcc412.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc020.mcc412.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc631.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc631.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc840.mcc365.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc840.mcc365.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc001.mcc276.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc276.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc001.mcc276.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc001.mcc276.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc001.mcc276.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc001.mcc276.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc003.mcc276.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc276.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc276.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc276.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc276.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc276.pub.3gppnetwork.org. IN AAAA
@@ -111,7 +112,7 @@ Error resolving domain epdg.epc.mnc004.mcc624.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc090.mcc630.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc090.mcc630.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc630.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc630.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc086.mcc630.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc086.mcc630.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc086.mcc630.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc086.mcc630.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc086.mcc630.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc086.mcc630.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc089.mcc630.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc089.mcc630.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc001.mcc630.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc630.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc629.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc629.pub.3gppnetwork.org. IN AAAA
@@ -181,12 +182,12 @@ Error resolving domain epdg.epc.mnc004.mcc628.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc003.mcc628.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc628.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc628.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc628.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc010.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc010.mcc234.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc020.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc020.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc050.mcc234.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc030.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc030.mcc234.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc058.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc058.mcc234.pub.3gppnetwork.org. IN AAAA
@@ -254,8 +255,8 @@ Error resolving domain epdg.epc.mnc017.mcc404.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc025.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc025.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc028.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc028.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc029.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc029.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc007.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc007.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc007.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc007.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc091.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc091.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc054.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc054.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc053.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc053.mcc405.pub.3gppnetwork.org. IN AAAA
@@ -287,53 +288,53 @@ Error resolving domain epdg.epc.mnc093.mcc404.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc002.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc042.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc042.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc010.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc010.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc024.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.001 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc024.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc046.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc046.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc024.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc024.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc046.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc046.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc003.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc027.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc027.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc022.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc022.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc043.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc043.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc030.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc030.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc022.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc022.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc043.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc043.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc030.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc030.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc068.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc068.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc011.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc011.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc011.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc012.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc012.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc019.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc019.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc012.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc012.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc019.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc019.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc056.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc056.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc056.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc005.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc005.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc005.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc070.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc070.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc020.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc020.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc070.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc070.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc020.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc020.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc070.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc070.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc004.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc004.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc004.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.001 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc082.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc082.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc848.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc082.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc848.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc848.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc799.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc799.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc799.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc850.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc850.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc087.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc850.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc850.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc087.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc087.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc852.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc852.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc089.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc089.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc853.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc853.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc852.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc852.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc089.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc089.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc853.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc853.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc840.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc840.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc854.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc854.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc855.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc855.mcc405.pub.3gppnetwork.org. IN AAAA
@@ -358,16 +359,16 @@ Error resolving domain epdg.epc.mnc872.mcc405.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc873.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc873.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc874.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc874.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc069.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc069.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc078.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc078.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc078.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc031.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc031.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc041.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc041.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc067.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc067.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc040.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc040.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc044.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc044.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc014.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc014.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.001 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc044.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc044.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc014.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc014.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc025.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc025.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc034.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc034.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc044.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc044.mcc405.pub.3gppnetwork.org. IN AAAA
@@ -419,10 +420,11 @@ Error resolving domain epdg.epc.mnc077.mcc416.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc003.mcc416.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc416.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc010.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc010.mcc440.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc020.mcc440.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc020.mcc440.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc020.mcc440.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc020.mcc440.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc020.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc020.mcc440.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc221.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc221.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc077.mcc401.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc077.mcc401.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc401.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc401.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc002.mcc401.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc002.mcc401.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc002.mcc401.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc002.mcc401.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc005.mcc639.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc639.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc639.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc639.pub.3gppnetwork.org. IN AAAA
@@ -434,14 +436,15 @@ Error resolving domain epdg.epc.mnc008.mcc456.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc001.mcc545.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc545.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc110.mcc356.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc110.mcc356.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc008.mcc450.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc008.mcc450.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc008.mcc450.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc008.mcc450.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc006.mcc450.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc006.mcc450.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc008.mcc450.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc008.mcc450.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc006.mcc450.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc450.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc005.mcc450.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc005.mcc450.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc004.mcc419.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc419.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc419.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc002.mcc419.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc002.mcc419.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc002.mcc419.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc003.mcc419.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc419.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc457.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc457.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc002.mcc457.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc002.mcc457.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc002.mcc457.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc457.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc457.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc457.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc008.mcc457.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc008.mcc457.pub.3gppnetwork.org. IN AAAA
@@ -490,7 +493,6 @@ Error resolving domain epdg.epc.mnc002.mcc610.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc002.mcc610.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc002.mcc610.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc021.mcc278.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc021.mcc278.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc019.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc019.mcc901.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc001.mcc278.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc001.mcc278.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc001.mcc278.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc278.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc005.mcc414.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc414.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc414.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc414.pub.3gppnetwork.org. IN AAAA
@@ -512,7 +514,7 @@ Error resolving domain epdg.epc.mnc010.mcc650.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc012.mcc502.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc012.mcc502.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc019.mcc502.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc019.mcc502.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc018.mcc502.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc018.mcc502.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc013.mcc502.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc013.mcc502.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc013.mcc502.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc013.mcc502.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc016.mcc502.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc016.mcc502.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc649.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc001.mcc649.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
@@ -520,7 +522,7 @@ Error resolving domain epdg.epc.mnc003.mcc649.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc001.mcc546.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc546.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc614.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc614.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc614.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc004.mcc614.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc004.mcc614.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc004.mcc614.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc004.mcc614.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc060.mcc621.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc060.mcc621.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc020.mcc621.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc020.mcc621.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc050.mcc621.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc050.mcc621.pub.3gppnetwork.org. IN AAAA
@@ -570,6 +572,7 @@ Error resolving domain epdg.epc.mnc001.mcc260.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc006.mcc260.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc260.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc110.mcc330.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc110.mcc330.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc268.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc268.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc001.mcc268.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc001.mcc268.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc001.mcc268.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc001.mcc268.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc006.mcc268.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc268.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc744.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc744.pub.3gppnetwork.org. IN AAAA
@@ -615,7 +618,7 @@ Error resolving domain epdg.epc.mnc005.mcc220.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc002.mcc659.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc659.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc006.mcc659.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc659.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc626.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc626.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc001.mcc634.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc001.mcc634.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc003.mcc746.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc746.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc746.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc746.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc231.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc231.pub.3gppnetwork.org. IN AAAA
@@ -681,7 +684,8 @@ Error resolving domain epdg.epc.mnc420.mcc310.pub.3gppnetwork.org (type AAAA): A
 Error resolving domain epdg.epc.mnc320.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc320.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc450.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc450.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc040.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc040.mcc311.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc690.mcc310.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc690.mcc310.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc690.mcc310.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc690.mcc310.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc690.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc690.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc370.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc370.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc110.mcc310.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc110.mcc310.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc110.mcc310.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc110.mcc310.pub.3gppnetwork.org.
@@ -732,7 +736,7 @@ Error resolving domain epdg.epc.mnc710.mcc302.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc710.mcc302.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc710.mcc302.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc015.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc015.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc632.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc003.mcc632.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc003.mcc632.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc632.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc003.mcc632.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc003.mcc632.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc008.mcc418.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc008.mcc418.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc222.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc222.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc222.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc222.pub.3gppnetwork.org. IN AAAA
@@ -749,6 +753,7 @@ Error resolving domain epdg.epc.mnc660.mcc310.pub.3gppnetwork.org (type A): All 
 Error resolving domain epdg.epc.mnc660.mcc310.pub.3gppnetwork.org (type AAAA): All nameservers failed to answer the query epdg.epc.mnc660.mcc310.pub.3gppnetwork.org. IN AAAA: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc400.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc400.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc029.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc029.mcc234.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc019.mcc425.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc019.mcc425.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc019.mcc425.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc067.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc067.mcc901.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc021.mcc454.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc021.mcc454.pub.3gppnetwork.org. IN AAAA
@@ -864,8 +869,8 @@ Error resolving domain epdg.epc.mnc070.mcc234.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc320.mcc722.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc320.mcc722.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc330.mcc722.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc330.mcc722.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc079.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc079.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc013.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc013.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc013.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc013.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc073.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc073.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc001.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc001.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc001.mcc405.pub.3gppnetwork.org.
@@ -898,8 +903,8 @@ Error resolving domain epdg.epc.mnc009.mcc404.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc009.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc009.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc038.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc038.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc026.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc026.mcc405.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc751.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc751.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc751.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc751.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc824.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc824.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc845.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc845.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
@@ -995,8 +1000,8 @@ Error resolving domain epdg.epc.mnc970.mcc311.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc075.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc075.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc036.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc036.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc752.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc752.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc752.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc752.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc005.mcc247.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc247.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc034.mcc244.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc034.mcc244.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc647.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc647.pub.3gppnetwork.org. IN AAAA
@@ -1091,7 +1096,7 @@ Error resolving domain epdg.epc.mnc010.mcc312.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc220.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc220.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc064.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc064.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc084.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc084.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc084.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc028.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc028.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc005.mcc467.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc467.pub.3gppnetwork.org. IN AAAA
@@ -1184,7 +1189,7 @@ Error resolving domain epdg.epc.mnc930.mcc310.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc380.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc380.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc612.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc612.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc240.mcc311.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc240.mcc311.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.101 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc240.mcc311.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc075.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc075.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc027.mcc208.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc027.mcc208.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc734.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc734.pub.3gppnetwork.org. IN AAAA
@@ -1233,7 +1238,7 @@ Error resolving domain epdg.epc.mnc010.mcc262.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc060.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc060.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc042.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc042.mcc901.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc909.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc909.mcc405.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc005.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc005.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc005.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc005.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc005.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc844.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc844.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc913.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc913.mcc405.pub.3gppnetwork.org. IN AAAA
@@ -1379,7 +1384,7 @@ Error resolving domain epdg.epc.mnc025.mcc244.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc022.mcc414.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc022.mcc414.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc009.mcc340.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc009.mcc340.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc012.mcc425.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc012.mcc425.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc012.mcc425.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc001.mcc550.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc550.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc390.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc390.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc050.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc050.mcc312.pub.3gppnetwork.org. IN AAAA
@@ -1460,8 +1465,8 @@ Error resolving domain epdg.epc.mnc991.mcc302.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc094.mcc208.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc094.mcc208.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc072.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc072.mcc234.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc440.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc001.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc001.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc001.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc001.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc034.mcc404.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc034.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc034.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc034.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc007.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc007.mcc405.pub.3gppnetwork.org.
@@ -1476,9 +1481,9 @@ Error resolving domain epdg.epc.mnc018.mcc404.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc051.mcc404.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc051.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc051.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc051.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc008.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc008.mcc405.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc008.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc754.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc754.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc008.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc008.mcc405.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc754.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc754.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc010.mcc231.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc010.mcc231.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc015.mcc425.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc015.mcc425.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc071.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc071.mcc234.pub.3gppnetwork.org. IN AAAA
@@ -1514,8 +1519,8 @@ Error resolving domain epdg.epc.mnc015.mcc226.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc022.mcc505.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc022.mcc505.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc016.mcc208.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc016.mcc208.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc032.mcc655.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc032.mcc655.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc340.mcc311.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc340.mcc311.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc340.mcc311.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc340.mcc311.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc090.mcc208.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc090.mcc208.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc250.mcc313.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc250.mcc313.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc007.mcc228.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc007.mcc228.pub.3gppnetwork.org. IN AAAA
@@ -1591,8 +1596,8 @@ Error resolving domain epdg.epc.mnc009.mcc405.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc055.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc055.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc750.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc750.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc846.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc846.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc846.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc846.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc860.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc860.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc440.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc650.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc650.mcc310.pub.3gppnetwork.org. IN AAAA
@@ -1613,8 +1618,8 @@ Error resolving domain epdg.epc.mnc044.mcc641.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc870.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc870.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc283.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc283.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc031.mcc655.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc031.mcc655.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc086.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc086.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc086.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc086.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc010.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc010.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc010.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc010.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc820.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc820.mcc405.pub.3gppnetwork.org. IN AAAA
@@ -1632,8 +1637,8 @@ Error resolving domain epdg.epc.mnc073.mcc440.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc074.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc074.mcc440.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc075.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc075.mcc440.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc076.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc076.mcc440.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc380.mcc302.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc380.mcc302.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc380.mcc302.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc380.mcc302.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc530.mcc302.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc530.mcc302.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc530.mcc302.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc530.mcc302.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc072.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc072.mcc404.pub.3gppnetwork.org. IN AAAA
@@ -1742,8 +1747,8 @@ Error resolving domain epdg.epc.mnc014.mcc405.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc014.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc014.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc834.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc834.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc058.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc058.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc756.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc756.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc756.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc756.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc068.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc068.mcc901.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc002.mcc282.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc282.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc282.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc282.pub.3gppnetwork.org. IN AAAA
@@ -1783,8 +1788,8 @@ Error resolving domain epdg.epc.mnc022.mcc901.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc002.mcc633.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc633.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc032.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc032.mcc901.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc014.mcc250.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc014.mcc250.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc077.mcc278.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.101 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc077.mcc278.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.101 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc077.mcc278.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc077.mcc278.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc029.mcc240.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc029.mcc240.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc200.mcc313.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc200.mcc313.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc059.mcc901.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc059.mcc901.pub.3gppnetwork.org. IN AAAA
@@ -1799,8 +1804,7 @@ Error resolving domain epdg.epc.mnc000.mcc311.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc700.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc700.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc070.mcc313.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc070.mcc313.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc550.mcc313.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc550.mcc313.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc002.mcc704.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc002.mcc704.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc002.mcc704.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc002.mcc704.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc002.mcc704.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc002.mcc704.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc022.mcc204.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc022.mcc204.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc005.mcc427.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc427.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc006.mcc427.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc427.pub.3gppnetwork.org. IN AAAA
@@ -1924,7 +1928,7 @@ Error resolving domain epdg.epc.mnc010.mcc316.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc060.mcc204.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc060.mcc204.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc037.mcc260.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc037.mcc260.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc004.mcc238.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc238.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc016.mcc206.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc016.mcc206.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc016.mcc206.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc030.mcc240.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc030.mcc240.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc300.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc300.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc079.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc079.mcc262.pub.3gppnetwork.org. IN AAAA
@@ -1932,13 +1936,13 @@ Error resolving domain epdg.epc.mnc560.mcc312.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc020.mcc722.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc020.mcc722.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc000.mcc724.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc000.mcc724.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc039.mcc724.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc039.mcc724.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc039.mcc724.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc039.mcc724.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc039.mcc724.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc039.mcc724.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc003.mcc250.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc250.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc073.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc073.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc540.mcc313.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc540.mcc313.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc090.mcc242.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc090.mcc242.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc007.mcc244.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.104 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc007.mcc244.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.104 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc007.mcc244.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.103 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc007.mcc244.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc008.mcc244.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc008.mcc244.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc009.mcc244.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc009.mcc244.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc038.mcc244.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc038.mcc244.pub.3gppnetwork.org. IN AAAA
@@ -1956,10 +1960,10 @@ Error resolving domain epdg.epc.mnc230.mcc312.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc050.mcc404.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc050.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc050.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc050.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc077.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc077.mcc404.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc755.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc755.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc849.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc849.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc755.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.001 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc755.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc849.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc849.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc017.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc017.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc710.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc710.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc920.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc920.mcc312.pub.3gppnetwork.org. IN AAAA
@@ -2018,7 +2022,6 @@ Error resolving domain epdg.epc.mnc006.mcc232.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc002.mcc624.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc002.mcc624.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc002.mcc624.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc002.mcc624.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc009.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc009.mcc214.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc021.mcc214.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc021.mcc214.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc021.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc021.mcc214.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc019.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc019.mcc214.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc000.mcc647.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc000.mcc647.pub.3gppnetwork.org. IN AAAA
@@ -2041,7 +2044,7 @@ Error resolving domain epdg.epc.mnc076.mcc404.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc017.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc017.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc017.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc017.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc753.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc753.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc753.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc004.mcc202.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc004.mcc202.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc202.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc202.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc740.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc740.pub.3gppnetwork.org. IN AAAA
@@ -2147,8 +2150,8 @@ Error resolving domain epdg.epc.mnc001.mcc204.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc013.mcc505.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc013.mcc505.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc059.mcc404.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc059.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc059.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc059.mcc404.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc060.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc060.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
+Error resolving domain epdg.epc.mnc060.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc060.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc019.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc019.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc019.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc019.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc011.mcc440.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc011.mcc440.pub.3gppnetwork.org. IN AAAA
@@ -2183,7 +2186,8 @@ Error resolving domain epdg.epc.mnc540.mcc302.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc044.mcc505.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc044.mcc505.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc009.mcc520.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc009.mcc520.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc430.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc430.mcc311.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc160.mcc312.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc160.mcc312.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc160.mcc312.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc160.mcc312.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc160.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc160.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc320.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc320.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc006.mcc434.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc434.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc640.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc640.pub.3gppnetwork.org. IN AAAA
@@ -2336,13 +2340,12 @@ Error resolving domain epdg.epc.mnc830.mcc310.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc260.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc260.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc490.mcc311.pub.3gppnetwork.org (type A): All nameservers failed to answer the query epdg.epc.mnc490.mcc311.pub.3gppnetwork.org. IN A: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc490.mcc311.pub.3gppnetwork.org (type AAAA): All nameservers failed to answer the query epdg.epc.mnc490.mcc311.pub.3gppnetwork.org. IN AAAA: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc870.mcc311.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc870.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc870.mcc311.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc870.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc880.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc880.mcc311.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc882.mcc311.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc882.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc882.mcc311.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc882.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc940.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc940.mcc311.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc190.mcc312.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc190.mcc312.pub.3gppnetwork.org.
+Error resolving domain epdg.epc.mnc190.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc190.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc240.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc240.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc250.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc250.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc530.mcc312.pub.3gppnetwork.org (type A): All nameservers failed to answer the query epdg.epc.mnc530.mcc312.pub.3gppnetwork.org. IN A: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
@@ -2505,7 +2508,7 @@ Error resolving domain epdg.epc.mnc002.mcc234.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc011.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc011.mcc234.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc005.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc005.mcc262.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc008.mcc262.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc008.mcc262.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc008.mcc262.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc011.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc011.mcc262.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc017.mcc262.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc017.mcc262.pub.3gppnetwork.org. IN AAAA
@@ -2603,9 +2606,9 @@ Error resolving domain epdg.epc.mnc054.mcc234.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc018.mcc456.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc018.mcc456.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc033.mcc655.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc033.mcc655.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc050.mcc311.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc050.mcc311.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc050.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc050.mcc311.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc050.mcc311.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc050.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc830.mcc311.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc830.mcc311.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc830.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc830.mcc311.pub.3gppnetwork.org. IN AAAA
+Error resolving domain epdg.epc.mnc830.mcc311.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc830.mcc311.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc650.mcc302.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc650.mcc302.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc650.mcc302.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc650.mcc302.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc656.mcc302.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc656.mcc302.pub.3gppnetwork.org.
@@ -2675,8 +2678,7 @@ Error resolving domain epdg.epc.mnc011.mcc248.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc960.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc960.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc208.mcc732.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc208.mcc732.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc860.mcc311.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc860.mcc311.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc290.mcc312.pub.3gppnetwork.org (type A): All nameservers failed to answer the query epdg.epc.mnc290.mcc312.pub.3gppnetwork.org. IN A: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc290.mcc312.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.102 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc290.mcc312.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc290.mcc312.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc051.mcc234.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc051.mcc234.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc235.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc235.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc031.mcc244.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc031.mcc244.pub.3gppnetwork.org. IN AAAA
@@ -2712,7 +2714,7 @@ Error resolving domain epdg.epc.mnc010.mcc441.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc066.mcc204.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc066.mcc204.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc070.mcc356.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc070.mcc356.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc340.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc340.pub.3gppnetwork.org. IN AAAA
-Error resolving domain epdg.epc.mnc015.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc015.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc015.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc055.mcc404.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc055.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc055.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc055.mcc404.pub.3gppnetwork.org.
@@ -2722,8 +2724,8 @@ Error resolving domain epdg.epc.mnc054.mcc404.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc054.mcc404.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc054.mcc404.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc022.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc022.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc022.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc022.mcc405.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc066.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.004 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc066.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc066.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc066.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
 Error resolving domain epdg.epc.mnc818.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc818.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc003.mcc434.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc003.mcc434.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc008.mcc434.pub.3gppnetwork.org (type A): All nameservers failed to answer the query epdg.epc.mnc008.mcc434.pub.3gppnetwork.org. IN A: Server Do53:8.8.8.8@53 answered SERVFAIL; Server Do53:1.1.1.1@53 answered SERVFAIL
@@ -2844,7 +2846,7 @@ Error resolving domain epdg.epc.mnc007.mcc505.pub.3gppnetwork.org (type A): The 
 Error resolving domain epdg.epc.mnc007.mcc505.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc007.mcc505.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc091.mcc268.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc091.mcc268.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc088.mcc404.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
-Error resolving domain epdg.epc.mnc088.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.006 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc088.mcc404.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.002 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc006.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc006.mcc214.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc018.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc018.mcc214.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc037.mcc214.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc037.mcc214.pub.3gppnetwork.org. IN AAAA
@@ -2890,8 +2892,8 @@ Error resolving domain epdg.epc.mnc360.mcc312.pub.3gppnetwork.org (type AAAA): T
 Error resolving domain epdg.epc.mnc085.mcc404.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc085.mcc404.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc023.mcc405.pub.3gppnetwork.org (type A): The DNS query name does not exist: epdg.epc.mnc023.mcc405.pub.3gppnetwork.org.
 Error resolving domain epdg.epc.mnc023.mcc405.pub.3gppnetwork.org (type AAAA): The DNS query name does not exist: epdg.epc.mnc023.mcc405.pub.3gppnetwork.org.
-Error resolving domain epdg.epc.mnc067.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
-Error resolving domain epdg.epc.mnc067.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc067.mcc405.pub.3gppnetwork.org (type A): The resolution lifetime expired after 5.005 seconds: Server Do53:8.8.8.8@53 answered The DNS operation timed out.
+Error resolving domain epdg.epc.mnc067.mcc405.pub.3gppnetwork.org (type AAAA): The resolution lifetime expired after 5.003 seconds: Server Do53:8.8.8.8@53 answered SERVFAIL
 Error resolving domain epdg.epc.mnc880.mcc405.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc880.mcc405.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc180.mcc310.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc180.mcc310.pub.3gppnetwork.org. IN AAAA
 Error resolving domain epdg.epc.mnc001.mcc346.pub.3gppnetwork.org (type AAAA): The DNS response does not contain an answer to the question: epdg.epc.mnc001.mcc346.pub.3gppnetwork.org. IN AAAA
