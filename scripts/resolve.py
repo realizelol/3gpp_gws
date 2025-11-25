@@ -96,14 +96,14 @@ def process_domains_from_csv(csv_url):
           if countries[country_code].get(record_type):
             for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
               if record_type == 'A':
-                ipv4_valid = [int(ip) for ip in ips if is_valid_ipv4(ip)]
-                ipv4_sorted = sort(ipv4_valid)
+                ipv4_valid = [ip for ip in ips if is_valid_ipv4(ip)]
+                ipv4_sorted = sorted([int(ipaddress.IPv4Address(ip)) for ip in ipv4_valid])
                 for ip in ipv4_sorted:
                   ipv4_file.write(f"{ip}\n")
                   ipv4_country_file.write(f"{ip}\n")
               elif record_type == 'AAAA':
-                ipv6_valid = [int(ip) for ip in ips if is_valid_ipv6(ip)]
-                ipv6_sorted = sort(ipv6_valid)
+                ipv6_valid = [ip for ip in ips if is_valid_ipv6(ip)]
+                ipv6_sorted = sorted([ipaddress.IPv6Address(ip) for ip in ipv6_valid])
                 for ip in ipv6_sorted:
                   ipv6_file.write(f"{ip}\n")
                   ipv6_country_file.write(f"{ip}\n")
