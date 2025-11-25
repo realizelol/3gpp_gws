@@ -28,6 +28,16 @@ def is_valid_ipv6(ip):
   except ipaddress.AddressValueError:
     return False
 
+def ip_to_int(ip, ver):
+  if ver == 4:
+    return int(ipaddress.IPv4Address(ip))
+  if ver == 6:
+    return str(ipaddress.IPv6Address(ip))
+
+def sort_ips(ips, ver):
+  valid_ips = [ip for ip in ips if (is_valid_ipv4(ip) if ver == 4 else is_valid_ipv6(ip))]
+  return sorted(valid_ips, key=lambda ip: ip_to_int(ip, ver))
+
 def resolve_domain(domain, record_type='A'):
   try:
     resolver = dns.resolver.Resolver()
@@ -96,14 +106,12 @@ def process_domains_from_csv(csv_url):
           if countries[country_code].get(record_type):
             for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
               if record_type == 'A':
-                ipv4_valid = [ip for ip in ips if is_valid_ipv4(ip)]
-                ipv4_sorted = sorted(ipv4_valid, key=lambda ip: int(ipaddress.IPv4Address(ip)))
+                ipv4_sorted = sort_ips(ips, 4)
                 for ip in ipv4_sorted:
                   ipv4_file.write(f"{ip}\n")
                   ipv4_country_file.write(f"{ip}\n")
               elif record_type == 'AAAA':
-                ipv6_valid = [ip for ip in ips if is_valid_ipv6(ip)]
-                ipv6_sorted = sorted(ipv6_valid)
+                ipv6_sorted = sort_ips(ips, 6)
                 for ip in ipv6_sorted:
                   ipv6_file.write(f"{ip}\n")
                   ipv6_country_file.write(f"{ip}\n")
