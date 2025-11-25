@@ -28,14 +28,16 @@ jobs:
       - name: Install Python dependencies
         run: |
           pip3 install requests pandas dnspython
-      - name: Create Dirs.
+      - name: Create Dirs and Files.
         run: |
           [[ -d backups ]] || mkdir backups; \
           [[ -d domains ]] || mkdir domains; \
           [[ -d scripts ]] || mkdir scripts; \
           [[ -d ipv4 ]] || mkdir ipv4; \
           [[ -d ipv6 ]] || mkdir ipv6; \
-          [[ -f all_domains.txt ]] || touch all_domains.txt
+          [[ -f all_domains.txt ]] || touch all_domains.txt; \
+          [[ -f _dns_errors.txt ]] && rm -f _dns_errors.txt; \
+          [[ -f _dns_errors.txt ]] || touch _dns_errors.txt
       - name: Create Backup.
         run: |
           curl -s https://mcc-mnc.net/mcc-mnc.csv > /tmp/mcc-mnc.csv; \
