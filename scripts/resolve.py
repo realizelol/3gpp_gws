@@ -47,8 +47,8 @@ def resolve_domain(domain, record_type='A'):
     answer = resolver.resolve(domain, record_type)
     return [rdata.to_text() for rdata in answer]
   except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.resolver.LifetimeTimeout, dns.resolver.NoNameservers, socket.gaierror) as e:
-    with open("_dns_errors.txt", 'a') as file:
-      file.write(f"Error resolving domain {domain} (type {record_type}): {e}\n")
+    #with open("_dns_errors.txt", 'a') as file:
+    #  file.write(f"Error resolving domain {domain} (type {record_type}): {e}\n")
     return []
 
 def download_csv(url):
