@@ -34,7 +34,8 @@ jobs:
           [[ -d domains ]] || mkdir domains; \
           [[ -d scripts ]] || mkdir scripts; \
           [[ -d ipv4 ]] || mkdir ipv4; \
-          [[ -d ipv6 ]] || mkdir ipv6
+          [[ -d ipv6 ]] || mkdir ipv6; \
+          [[ -f all_domains.txt ]] || touch all_domains.txt
       - name: Create Backup.
         run: |
           curl -s https://mcc-mnc.net/mcc-mnc.csv > /tmp/mcc-mnc.csv; \

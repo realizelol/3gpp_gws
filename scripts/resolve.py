@@ -7,7 +7,6 @@ import dns.resolver
 import socket
 from collections import defaultdict
 import ipaddress
-import os
 
 def is_valid_ipv4(ip):
   try:
@@ -32,8 +31,8 @@ def is_valid_ipv6(ip):
 def resolve_domain(domain, record_type='A'):
   try:
     resolver = dns.resolver.Resolver()
-    resolver.timeout = 10
-    resolver.lifetime = 15
+    resolver.timeout = 6.0
+    resolver.lifetime = 5.0
     resolver.nameservers = ['8.8.8.8', '1.1.1.1']
     answer = resolver.resolve(domain, record_type)
     return [rdata.to_text() for rdata in answer]
@@ -43,17 +42,16 @@ def resolve_domain(domain, record_type='A'):
 
 def load_written_domains(filename="all_domains.txt"):
   written_domains = set()
-  if os.path.exists(filename):
-    with open(filename, 'r') as file:
-      for line in file:
-        written_domains.add(line.strip())
+  with open(filename, 'r') as file:
+    for line in file:
+      written_domains.add(line.strip())
   return written_domains
 
 def add_domain_to_file(filename, domain, written_domains):
   if domain not in written_domains:
-    with open(filename, 'a') as file:
-      file.write(f"{domain}\n")
     written_domains.add(domain)
+    return True
+  return False
 
 def download_csv(url):
   response = requests.get(url)
@@ -70,19 +68,22 @@ def process_domains_from_csv(csv_url):
   if data.empty:
     print("CSV contains no valid data")
     return
-  #data = data[data['ISO'].notna() & (data['ISO'].str.strip() != '')]
+
   written_domains = load_written_domains()
   countries = defaultdict(lambda: defaultdict(list))
   for _, row in data.iterrows():
     mcc = str(row['MCC']).zfill(3)
     mnc = str(row['MNC']).zfill(3)
     country_code = str(row['ISO'])
-    #if pd.isna(country_code) or not country_code.strip():
-    #    continue
     sanitized_country_code = country_code.replace('/', '-').lower()
+
     domain = f"epdg.epc.mnc{mnc}.mcc{mcc}.pub.3gppnetwork.org"
-    add_domain_to_file("all_domains.txt", domain, written_domains)
-    add_domain_to_file(f"domains/{sanitized_country_code}.txt", domain, written_domains)
+    if add_domain_to_file("all_domains.txt", domain, written_domains):
+      with open("all_domains.txt", 'w') as file:
+        file.write("\n".join(sorted(written_domains)) + "\n")
+    if add_domain_to_file(f"domains/{sanitized_country_code}.txt", domain, written_domains):
+      with open(f"domains/{sanitized_country_code}.txt", 'w') as country_file:
+        country_file.write("\n".join(sorted(written_domains)) + "\n")
 
     ipv4_addresses = resolve_domain(domain, 'A')
     ipv6_addresses = resolve_domain(domain, 'AAAA')
@@ -96,7 +97,8 @@ def process_domains_from_csv(csv_url):
       for record_type in ['A', 'AAAA']:
         if countries[country_code].get(record_type):
           for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-            for ip in sorted(ips):
+            ips_sorted = sorted(ips)
+            for ip in ips_sorted:
               if record_type == 'A' and is_valid_ipv4(ip):
                 ipv4_file.write(f"{ip}\n")
               elif record_type == 'AAAA' and is_valid_ipv6(ip):
@@ -104,14 +106,13 @@ def process_domains_from_csv(csv_url):
 
   for country_code in sorted(countries.keys()):
     sanitized_country_code = country_code.replace('/', '-').lower()
-    with open(f"domains/{sanitized_country_code}.txt", 'w') as country_file, \
-         open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
+    with open(f"ipv4/{sanitized_country_code}.txt", 'w') as ipv4_country_file, \
          open(f"ipv6/{sanitized_country_code}.txt", 'w') as ipv6_country_file:
-
       for record_type in ['A', 'AAAA']:
         if countries[country_code].get(record_type):
           for domain, ips in sorted(countries[country_code][record_type], key=lambda x: x[0]):
-            for ip in sorted(ips):
+            ips_sorted = sorted(ips)
+            for ip in ips_sorted:
               if record_type == 'A' and is_valid_ipv4(ip):
                 ipv4_country_file.write(f"{ip}\n")
               elif record_type == 'AAAA' and is_valid_ipv6(ip):
